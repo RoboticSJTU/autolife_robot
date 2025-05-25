@@ -1,0 +1,45 @@
+autolife\_robot\_sdk.hardware.system package
+============================================
+
+Submodules
+----------
+
+autolife\_robot\_sdk.hardware.system.hw\_configs module
+-------------------------------------------------------
+
+.. automodule:: autolife_robot_sdk.hardware.system.hw_configs
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+autolife\_robot\_sdk.hardware.system.hw\_discovery module
+---------------------------------------------------------
+
+.. automodule:: autolife_robot_sdk.hardware.system.hw_discovery
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+autolife\_robot\_sdk.hardware.system.hw\_registry module
+--------------------------------------------------------
+
+.. automodule:: autolife_robot_sdk.hardware.system.hw_registry
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+autolife\_robot\_sdk.hardware.system.hw\_system module
+------------------------------------------------------
+
+.. automodule:: autolife_robot_sdk.hardware.system.hw_system
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: autolife_robot_sdk.hardware.system
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,85 @@
+autolife\_robot\_sdk.interface package
+======================================
+
+Submodules
+----------
+
+autolife\_robot\_sdk.interface.api module
+-----------------------------------------
+
+.. automodule:: autolife_robot_sdk.interface.api
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+autolife\_robot\_sdk.interface.battery module
+---------------------------------------------
+
+.. automodule:: autolife_robot_sdk.interface.battery
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+autolife\_robot\_sdk.interface.camera module
+--------------------------------------------
+
+.. automodule:: autolife_robot_sdk.interface.camera
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+autolife\_robot\_sdk.interface.imu module
+-----------------------------------------
+
+.. automodule:: autolife_robot_sdk.interface.imu
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+autolife\_robot\_sdk.interface.lidar module
+-------------------------------------------
+
+.. automodule:: autolife_robot_sdk.interface.lidar
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+autolife\_robot\_sdk.interface.microphone module
+------------------------------------------------
+
+.. automodule:: autolife_robot_sdk.interface.microphone
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+autolife\_robot\_sdk.interface.motor module
+-------------------------------------------
+
+.. automodule:: autolife_robot_sdk.interface.motor
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+autolife\_robot\_sdk.interface.speaker module
+---------------------------------------------
+
+.. automodule:: autolife_robot_sdk.interface.speaker
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+autolife\_robot\_sdk.interface.system module
+--------------------------------------------
+
+.. automodule:: autolife_robot_sdk.interface.system
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: autolife_robot_sdk.interface
+   :members:
+   :undoc-members:
+   :show-inheritance:

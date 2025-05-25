@@ -1,0 +1,23 @@
+autolife\_robot\_sdk package
+============================
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   autolife_robot_sdk.dummy
+   autolife_robot_sdk.hardware
+   autolife_robot_sdk.interface
+   autolife_robot_sdk.sim_pybullet
+   autolife_robot_sdk.utils
+   autolife_robot_sdk.viewer_meshcat
+
+Module contents
+---------------
+
+.. automodule:: autolife_robot_sdk
+   :members:
+   :undoc-members:
+   :show-inheritance:

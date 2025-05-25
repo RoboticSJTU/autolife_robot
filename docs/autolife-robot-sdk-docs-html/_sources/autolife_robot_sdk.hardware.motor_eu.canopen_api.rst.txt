@@ -1,0 +1,29 @@
+autolife\_robot\_sdk.hardware.motor\_eu.canopen\_api package
+============================================================
+
+Submodules
+----------
+
+autolife\_robot\_sdk.hardware.motor\_eu.canopen\_api.controller module
+----------------------------------------------------------------------
+
+.. automodule:: autolife_robot_sdk.hardware.motor_eu.canopen_api.controller
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+autolife\_robot\_sdk.hardware.motor\_eu.canopen\_api.eu\_canopen\_cmd module
+----------------------------------------------------------------------------
+
+.. automodule:: autolife_robot_sdk.hardware.motor_eu.canopen_api.eu_canopen_cmd
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: autolife_robot_sdk.hardware.motor_eu.canopen_api
+   :members:
+   :undoc-members:
+   :show-inheritance:

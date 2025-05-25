@@ -1,0 +1,21 @@
+autolife\_robot\_sdk.hardware.battery package
+=============================================
+
+Submodules
+----------
+
+autolife\_robot\_sdk.hardware.battery.rs485\_reader module
+----------------------------------------------------------
+
+.. automodule:: autolife_robot_sdk.hardware.battery.rs485_reader
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: autolife_robot_sdk.hardware.battery
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,29 @@
+autolife\_robot\_sdk.viewer\_meshcat package
+============================================
+
+Submodules
+----------
+
+autolife\_robot\_sdk.viewer\_meshcat.colors module
+--------------------------------------------------
+
+.. automodule:: autolife_robot_sdk.viewer_meshcat.colors
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+autolife\_robot\_sdk.viewer\_meshcat.visualizer module
+------------------------------------------------------
+
+.. automodule:: autolife_robot_sdk.viewer_meshcat.visualizer
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: autolife_robot_sdk.viewer_meshcat
+   :members:
+   :undoc-members:
+   :show-inheritance:

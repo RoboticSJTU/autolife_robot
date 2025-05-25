@@ -1,0 +1,61 @@
+autolife\_robot\_sdk.hardware.multimedia package
+================================================
+
+Submodules
+----------
+
+autolife\_robot\_sdk.hardware.multimedia.camera\_usb\_realsense module
+----------------------------------------------------------------------
+
+.. automodule:: autolife_robot_sdk.hardware.multimedia.camera_usb_realsense
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+autolife\_robot\_sdk.hardware.multimedia.camera\_usb\_v4l2 module
+-----------------------------------------------------------------
+
+.. automodule:: autolife_robot_sdk.hardware.multimedia.camera_usb_v4l2
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+autolife\_robot\_sdk.hardware.multimedia.microphone\_usb\_alsa module
+---------------------------------------------------------------------
+
+.. automodule:: autolife_robot_sdk.hardware.multimedia.microphone_usb_alsa
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+autolife\_robot\_sdk.hardware.multimedia.microphone\_usb\_gst module
+--------------------------------------------------------------------
+
+.. automodule:: autolife_robot_sdk.hardware.multimedia.microphone_usb_gst
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+autolife\_robot\_sdk.hardware.multimedia.speaker\_usb\_alsa module
+------------------------------------------------------------------
+
+.. automodule:: autolife_robot_sdk.hardware.multimedia.speaker_usb_alsa
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+autolife\_robot\_sdk.hardware.multimedia.utils module
+-----------------------------------------------------
+
+.. automodule:: autolife_robot_sdk.hardware.multimedia.utils
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: autolife_robot_sdk.hardware.multimedia
+   :members:
+   :undoc-members:
+   :show-inheritance:

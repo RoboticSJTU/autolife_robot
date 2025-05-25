@@ -1,0 +1,38 @@
+autolife\_robot\_sdk.hardware package
+=====================================
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   autolife_robot_sdk.hardware.battery
+   autolife_robot_sdk.hardware.imu_h30
+   autolife_robot_sdk.hardware.lidar_rp
+   autolife_robot_sdk.hardware.lidar_wlr
+   autolife_robot_sdk.hardware.motor_dm
+   autolife_robot_sdk.hardware.motor_eu
+   autolife_robot_sdk.hardware.motor_hiwonder
+   autolife_robot_sdk.hardware.motor_lk
+   autolife_robot_sdk.hardware.multimedia
+   autolife_robot_sdk.hardware.system
+
+Submodules
+----------
+
+autolife\_robot\_sdk.hardware.hw\_api module
+--------------------------------------------
+
+.. automodule:: autolife_robot_sdk.hardware.hw_api
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: autolife_robot_sdk.hardware
+   :members:
+   :undoc-members:
+   :show-inheritance:

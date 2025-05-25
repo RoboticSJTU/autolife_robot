@@ -1,0 +1,29 @@
+autolife\_robot\_sdk.hardware.motor\_hiwonder.board\_api package
+================================================================
+
+Submodules
+----------
+
+autolife\_robot\_sdk.hardware.motor\_hiwonder.board\_api.controller module
+--------------------------------------------------------------------------
+
+.. automodule:: autolife_robot_sdk.hardware.motor_hiwonder.board_api.controller
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+autolife\_robot\_sdk.hardware.motor\_hiwonder.board\_api.hiwonder\_board\_cmd module
+------------------------------------------------------------------------------------
+
+.. automodule:: autolife_robot_sdk.hardware.motor_hiwonder.board_api.hiwonder_board_cmd
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: autolife_robot_sdk.hardware.motor_hiwonder.board_api
+   :members:
+   :undoc-members:
+   :show-inheritance:

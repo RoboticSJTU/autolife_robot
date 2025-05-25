@@ -1,0 +1,85 @@
+autolife\_robot\_sdk.dummy package
+==================================
+
+Submodules
+----------
+
+autolife\_robot\_sdk.dummy.battery module
+-----------------------------------------
+
+.. automodule:: autolife_robot_sdk.dummy.battery
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+autolife\_robot\_sdk.dummy.camera module
+----------------------------------------
+
+.. automodule:: autolife_robot_sdk.dummy.camera
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+autolife\_robot\_sdk.dummy.dummy\_api module
+--------------------------------------------
+
+.. automodule:: autolife_robot_sdk.dummy.dummy_api
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+autolife\_robot\_sdk.dummy.imu module
+-------------------------------------
+
+.. automodule:: autolife_robot_sdk.dummy.imu
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+autolife\_robot\_sdk.dummy.lidar module
+---------------------------------------
+
+.. automodule:: autolife_robot_sdk.dummy.lidar
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+autolife\_robot\_sdk.dummy.microphone module
+--------------------------------------------
+
+.. automodule:: autolife_robot_sdk.dummy.microphone
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+autolife\_robot\_sdk.dummy.motor module
+---------------------------------------
+
+.. automodule:: autolife_robot_sdk.dummy.motor
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+autolife\_robot\_sdk.dummy.speaker module
+-----------------------------------------
+
+.. automodule:: autolife_robot_sdk.dummy.speaker
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+autolife\_robot\_sdk.dummy.system module
+----------------------------------------
+
+.. automodule:: autolife_robot_sdk.dummy.system
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: autolife_robot_sdk.dummy
+   :members:
+   :undoc-members:
+   :show-inheritance:

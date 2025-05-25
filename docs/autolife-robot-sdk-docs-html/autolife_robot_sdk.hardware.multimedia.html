@@ -1,0 +1,589 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>autolife_robot_sdk.hardware.multimedia package &mdash; AutolifeRobotSDK 1.0.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=8d563738"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="autolife_robot_sdk.hardware.system package" href="autolife_robot_sdk.hardware.system.html" />
+    <link rel="prev" title="autolife_robot_sdk.hardware.motor_lk.can_api package" href="autolife_robot_sdk.hardware.motor_lk.can_api.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            AutolifeRobotSDK
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">autolife_robot_sdk</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="autolife_robot_sdk.html">autolife_robot_sdk package</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="autolife_robot_sdk.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="autolife_robot_sdk.dummy.html">autolife_robot_sdk.dummy package</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="autolife_robot_sdk.hardware.html">autolife_robot_sdk.hardware package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="autolife_robot_sdk.interface.html">autolife_robot_sdk.interface package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="autolife_robot_sdk.sim_pybullet.html">autolife_robot_sdk.sim_pybullet package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="autolife_robot_sdk.utils.html">autolife_robot_sdk.utils package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="autolife_robot_sdk.viewer_meshcat.html">autolife_robot_sdk.viewer_meshcat package</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="autolife_robot_sdk.html#module-autolife_robot_sdk">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">AutolifeRobotSDK</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="modules.html">autolife_robot_sdk</a></li>
+          <li class="breadcrumb-item"><a href="autolife_robot_sdk.html">autolife_robot_sdk package</a></li>
+          <li class="breadcrumb-item"><a href="autolife_robot_sdk.hardware.html">autolife_robot_sdk.hardware package</a></li>
+      <li class="breadcrumb-item active">autolife_robot_sdk.hardware.multimedia package</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/autolife_robot_sdk.hardware.multimedia.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="autolife-robot-sdk-hardware-multimedia-package">
+<h1>autolife_robot_sdk.hardware.multimedia package<a class="headerlink" href="#autolife-robot-sdk-hardware-multimedia-package" title="Link to this heading"></a></h1>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Link to this heading"></a></h2>
+</section>
+<section id="module-autolife_robot_sdk.hardware.multimedia.camera_usb_realsense">
+<span id="autolife-robot-sdk-hardware-multimedia-camera-usb-realsense-module"></span><h2>autolife_robot_sdk.hardware.multimedia.camera_usb_realsense module<a class="headerlink" href="#module-autolife_robot_sdk.hardware.multimedia.camera_usb_realsense" title="Link to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.camera_usb_realsense.RealSenseCameraReader">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.hardware.multimedia.camera_usb_realsense.</span></span><span class="sig-name descname"><span class="pre">RealSenseCameraReader</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">config</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.camera_usb_realsense.RealSenseCameraReader" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="autolife_robot_sdk.interface.html#autolife_robot_sdk.interface.camera.CameraInterface" title="autolife_robot_sdk.interface.camera.CameraInterface"><code class="xref py py-class docutils literal notranslate"><span class="pre">CameraInterface</span></code></a></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.camera_usb_realsense.RealSenseCameraReader.close">
+<span class="sig-name descname"><span class="pre">close</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.camera_usb_realsense.RealSenseCameraReader.close" title="Link to this definition"></a></dt>
+<dd><p>Release camera resources</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.camera_usb_realsense.RealSenseCameraReader.disable">
+<span class="sig-name descname"><span class="pre">disable</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.camera_usb_realsense.RealSenseCameraReader.disable" title="Link to this definition"></a></dt>
+<dd><p>Disable the camera reader</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.camera_usb_realsense.RealSenseCameraReader.enable">
+<span class="sig-name descname"><span class="pre">enable</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.camera_usb_realsense.RealSenseCameraReader.enable" title="Link to this definition"></a></dt>
+<dd><p>Enable the camera reader</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.camera_usb_realsense.RealSenseCameraReader.get_cached_data">
+<span class="sig-name descname"><span class="pre">get_cached_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">copy</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">frame_type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'both'</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.camera_usb_realsense.RealSenseCameraReader.get_cached_data" title="Link to this definition"></a></dt>
+<dd><p>Get the latest frame from the camera.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.camera_usb_realsense.RealSenseCameraReader.read_data">
+<span class="sig-name descname"><span class="pre">read_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">frame_type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'both'</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.camera_usb_realsense.RealSenseCameraReader.read_data" title="Link to this definition"></a></dt>
+<dd><p>Read a frame from the camera.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.camera_usb_realsense.RealSenseCameraReader.restart">
+<span class="sig-name descname"><span class="pre">restart</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.camera_usb_realsense.RealSenseCameraReader.restart" title="Link to this definition"></a></dt>
+<dd><p>Restart the camera by releasing and reinitializing resources</p>
+<p>This method handles scenarios where:
+- The camera is currently running normally
+- The camera was previously closed with close()
+- The camera failed to initialize</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>bool: True if camera was successfully restarted, False otherwise</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-autolife_robot_sdk.hardware.multimedia.camera_usb_v4l2">
+<span id="autolife-robot-sdk-hardware-multimedia-camera-usb-v4l2-module"></span><h2>autolife_robot_sdk.hardware.multimedia.camera_usb_v4l2 module<a class="headerlink" href="#module-autolife_robot_sdk.hardware.multimedia.camera_usb_v4l2" title="Link to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.camera_usb_v4l2.V4l2CameraReader">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.hardware.multimedia.camera_usb_v4l2.</span></span><span class="sig-name descname"><span class="pre">V4l2CameraReader</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">device_path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">config</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.camera_usb_v4l2.V4l2CameraReader" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="autolife_robot_sdk.interface.html#autolife_robot_sdk.interface.camera.CameraInterface" title="autolife_robot_sdk.interface.camera.CameraInterface"><code class="xref py py-class docutils literal notranslate"><span class="pre">CameraInterface</span></code></a></p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.camera_usb_v4l2.V4l2CameraReader.MAX_CONSECUTIVE_FAILURES">
+<span class="sig-name descname"><span class="pre">MAX_CONSECUTIVE_FAILURES</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">180</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.camera_usb_v4l2.V4l2CameraReader.MAX_CONSECUTIVE_FAILURES" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.camera_usb_v4l2.V4l2CameraReader.RECONNECT_DELAY">
+<span class="sig-name descname"><span class="pre">RECONNECT_DELAY</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">0.3</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.camera_usb_v4l2.V4l2CameraReader.RECONNECT_DELAY" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.camera_usb_v4l2.V4l2CameraReader.close">
+<span class="sig-name descname"><span class="pre">close</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.camera_usb_v4l2.V4l2CameraReader.close" title="Link to this definition"></a></dt>
+<dd><p>Release all camera resources</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.camera_usb_v4l2.V4l2CameraReader.disable">
+<span class="sig-name descname"><span class="pre">disable</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.camera_usb_v4l2.V4l2CameraReader.disable" title="Link to this definition"></a></dt>
+<dd><p>Disable the camera reader</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.camera_usb_v4l2.V4l2CameraReader.enable">
+<span class="sig-name descname"><span class="pre">enable</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.camera_usb_v4l2.V4l2CameraReader.enable" title="Link to this definition"></a></dt>
+<dd><p>Enable the camera reader</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.camera_usb_v4l2.V4l2CameraReader.get_cached_data">
+<span class="sig-name descname"><span class="pre">get_cached_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">copy</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.camera_usb_v4l2.V4l2CameraReader.get_cached_data" title="Link to this definition"></a></dt>
+<dd><p>Get the latest frame from the camera</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>copy: If True, return a copy of the frame</p>
+</dd>
+<dt>Returns:</dt><dd><p>numpy.ndarray: Camera frame</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.camera_usb_v4l2.V4l2CameraReader.read_data">
+<span class="sig-name descname"><span class="pre">read_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.camera_usb_v4l2.V4l2CameraReader.read_data" title="Link to this definition"></a></dt>
+<dd><p>Read a frame from the camera</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>numpy.ndarray: Camera frame or None if reading failed</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.camera_usb_v4l2.V4l2CameraReader.restart">
+<span class="sig-name descname"><span class="pre">restart</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.camera_usb_v4l2.V4l2CameraReader.restart" title="Link to this definition"></a></dt>
+<dd><p>Restart the camera by releasing and reinitializing resources</p>
+<p>This method handles scenarios where:
+- The camera is currently running normally
+- The camera was previously closed with close()
+- The camera failed to initialize</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>bool: True if camera was successfully restarted, False otherwise</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-autolife_robot_sdk.hardware.multimedia.microphone_usb_alsa">
+<span id="autolife-robot-sdk-hardware-multimedia-microphone-usb-alsa-module"></span><h2>autolife_robot_sdk.hardware.multimedia.microphone_usb_alsa module<a class="headerlink" href="#module-autolife_robot_sdk.hardware.multimedia.microphone_usb_alsa" title="Link to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.microphone_usb_alsa.AlsaMicrophone">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.hardware.multimedia.microphone_usb_alsa.</span></span><span class="sig-name descname"><span class="pre">AlsaMicrophone</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">config</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.microphone_usb_alsa.AlsaMicrophone" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="autolife_robot_sdk.interface.html#autolife_robot_sdk.interface.microphone.MicrophoneInterface" title="autolife_robot_sdk.interface.microphone.MicrophoneInterface"><code class="xref py py-class docutils literal notranslate"><span class="pre">MicrophoneInterface</span></code></a></p>
+<p>Microphone implementation using ALSA with a dedicated reading thread</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.microphone_usb_alsa.AlsaMicrophone.add_opus_encoder">
+<span class="sig-name descname"><span class="pre">add_opus_encoder</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">output_sample_rate</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">output_channels</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bitrate</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">64000</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.microphone_usb_alsa.AlsaMicrophone.add_opus_encoder" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.microphone_usb_alsa.AlsaMicrophone.clear_buffer">
+<span class="sig-name descname"><span class="pre">clear_buffer</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.microphone_usb_alsa.AlsaMicrophone.clear_buffer" title="Link to this definition"></a></dt>
+<dd><p>Clear the audio buffer.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.microphone_usb_alsa.AlsaMicrophone.get_audio_data">
+<span class="sig-name descname"><span class="pre">get_audio_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="autolife_robot_sdk.utils.html#autolife_robot_sdk.utils.audio_data.AudioData" title="autolife_robot_sdk.utils.audio_data.AudioData"><span class="pre">AudioData</span></a></span></span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.microphone_usb_alsa.AlsaMicrophone.get_audio_data" title="Link to this definition"></a></dt>
+<dd><p>Get all PCM data from the ring buffer</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.microphone_usb_alsa.AlsaMicrophone.get_device_id">
+<span class="sig-name descname"><span class="pre">get_device_id</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.microphone_usb_alsa.AlsaMicrophone.get_device_id" title="Link to this definition"></a></dt>
+<dd><p>Get the device ID of the microphone</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.microphone_usb_alsa.AlsaMicrophone.get_opus_data">
+<span class="sig-name descname"><span class="pre">get_opus_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">output_sample_rate</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">output_channels</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">bytes</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.microphone_usb_alsa.AlsaMicrophone.get_opus_data" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.microphone_usb_alsa.AlsaMicrophone.get_pcm_data">
+<span class="sig-name descname"><span class="pre">get_pcm_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">bytes</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.microphone_usb_alsa.AlsaMicrophone.get_pcm_data" title="Link to this definition"></a></dt>
+<dd><p>Get all PCM data from the ring buffer</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.microphone_usb_alsa.AlsaMicrophone.is_running">
+<span class="sig-name descname"><span class="pre">is_running</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.microphone_usb_alsa.AlsaMicrophone.is_running" title="Link to this definition"></a></dt>
+<dd><p>Check if the microphone is currently running</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.microphone_usb_alsa.AlsaMicrophone.register_audio_data_callback">
+<span class="sig-name descname"><span class="pre">register_audio_data_callback</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">callback</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Callable</span><span class="p"><span class="pre">[</span></span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="autolife_robot_sdk.utils.html#autolife_robot_sdk.utils.audio_data.AudioData" title="autolife_robot_sdk.utils.audio_data.AudioData"><span class="pre">AudioData</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">None</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.microphone_usb_alsa.AlsaMicrophone.register_audio_data_callback" title="Link to this definition"></a></dt>
+<dd><p>Register a callback to receive raw audio data</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.microphone_usb_alsa.AlsaMicrophone.register_opus_data_callback">
+<span class="sig-name descname"><span class="pre">register_opus_data_callback</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">output_sample_rate</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">output_channels</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">callback</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Callable</span><span class="p"><span class="pre">[</span></span><span class="p"><span class="pre">[</span></span><span class="pre">bytes</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">None</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.microphone_usb_alsa.AlsaMicrophone.register_opus_data_callback" title="Link to this definition"></a></dt>
+<dd><p>Register a callback to receive encoded OPUS audio data</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.microphone_usb_alsa.AlsaMicrophone.register_pcm_data_callback">
+<span class="sig-name descname"><span class="pre">register_pcm_data_callback</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">callback</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Callable</span><span class="p"><span class="pre">[</span></span><span class="p"><span class="pre">[</span></span><span class="pre">bytes</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">None</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.microphone_usb_alsa.AlsaMicrophone.register_pcm_data_callback" title="Link to this definition"></a></dt>
+<dd><p>Register a callback to receive raw audio data</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.microphone_usb_alsa.AlsaMicrophone.start">
+<span class="sig-name descname"><span class="pre">start</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.microphone_usb_alsa.AlsaMicrophone.start" title="Link to this definition"></a></dt>
+<dd><p>Start capturing audio</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.microphone_usb_alsa.AlsaMicrophone.stop">
+<span class="sig-name descname"><span class="pre">stop</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.microphone_usb_alsa.AlsaMicrophone.stop" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.microphone_usb_alsa.AlsaMicrophone.unregister_audio_data_callback">
+<span class="sig-name descname"><span class="pre">unregister_audio_data_callback</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">callback</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Callable</span><span class="p"><span class="pre">[</span></span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="autolife_robot_sdk.utils.html#autolife_robot_sdk.utils.audio_data.AudioData" title="autolife_robot_sdk.utils.audio_data.AudioData"><span class="pre">AudioData</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">None</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.microphone_usb_alsa.AlsaMicrophone.unregister_audio_data_callback" title="Link to this definition"></a></dt>
+<dd><p>Unregister a raw audio data callback</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.microphone_usb_alsa.AlsaMicrophone.unregister_opus_data_callback">
+<span class="sig-name descname"><span class="pre">unregister_opus_data_callback</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">output_sample_rate</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">output_channels</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">callback</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Callable</span><span class="p"><span class="pre">[</span></span><span class="p"><span class="pre">[</span></span><span class="pre">bytes</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">None</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.microphone_usb_alsa.AlsaMicrophone.unregister_opus_data_callback" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.microphone_usb_alsa.AlsaMicrophone.unregister_pcm_data_callback">
+<span class="sig-name descname"><span class="pre">unregister_pcm_data_callback</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">callback</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Callable</span><span class="p"><span class="pre">[</span></span><span class="p"><span class="pre">[</span></span><span class="pre">bytes</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">None</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.microphone_usb_alsa.AlsaMicrophone.unregister_pcm_data_callback" title="Link to this definition"></a></dt>
+<dd><p>Unregister a raw audio data callback</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-autolife_robot_sdk.hardware.multimedia.microphone_usb_gst">
+<span id="autolife-robot-sdk-hardware-multimedia-microphone-usb-gst-module"></span><h2>autolife_robot_sdk.hardware.multimedia.microphone_usb_gst module<a class="headerlink" href="#module-autolife_robot_sdk.hardware.multimedia.microphone_usb_gst" title="Link to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.microphone_usb_gst.GStreamerMicrophone">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.hardware.multimedia.microphone_usb_gst.</span></span><span class="sig-name descname"><span class="pre">GStreamerMicrophone</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">config</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.microphone_usb_gst.GStreamerMicrophone" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="autolife_robot_sdk.interface.html#autolife_robot_sdk.interface.microphone.MicrophoneInterface" title="autolife_robot_sdk.interface.microphone.MicrophoneInterface"><code class="xref py py-class docutils literal notranslate"><span class="pre">MicrophoneInterface</span></code></a></p>
+<p>A simplified class for capturing audio using GStreamer with Opus encoding.</p>
+<p>This class provides both raw audio data and Opus-encoded data through callbacks,
+making it suitable for various audio streaming applications.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.microphone_usb_gst.GStreamerMicrophone.add_opus_encoder">
+<span class="sig-name descname"><span class="pre">add_opus_encoder</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">output_sample_rate</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">output_channels</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bitrate</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">64000</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.microphone_usb_gst.GStreamerMicrophone.add_opus_encoder" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.microphone_usb_gst.GStreamerMicrophone.clear_buffer">
+<span class="sig-name descname"><span class="pre">clear_buffer</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.microphone_usb_gst.GStreamerMicrophone.clear_buffer" title="Link to this definition"></a></dt>
+<dd><p>Clear the audio buffer.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.microphone_usb_gst.GStreamerMicrophone.get_audio_data">
+<span class="sig-name descname"><span class="pre">get_audio_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="autolife_robot_sdk.utils.html#autolife_robot_sdk.utils.audio_data.AudioData" title="autolife_robot_sdk.utils.audio_data.AudioData"><span class="pre">AudioData</span></a></span></span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.microphone_usb_gst.GStreamerMicrophone.get_audio_data" title="Link to this definition"></a></dt>
+<dd><p>Get all PCM data from the ring buffer</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.microphone_usb_gst.GStreamerMicrophone.get_device_id">
+<span class="sig-name descname"><span class="pre">get_device_id</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.microphone_usb_gst.GStreamerMicrophone.get_device_id" title="Link to this definition"></a></dt>
+<dd><p>Get the device ID of the microphone</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.microphone_usb_gst.GStreamerMicrophone.get_opus_data">
+<span class="sig-name descname"><span class="pre">get_opus_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">output_sample_rate</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">output_channels</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bytes</span></span></span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.microphone_usb_gst.GStreamerMicrophone.get_opus_data" title="Link to this definition"></a></dt>
+<dd><p>Get all Opus data from the ring buffer</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.microphone_usb_gst.GStreamerMicrophone.get_pcm_data">
+<span class="sig-name descname"><span class="pre">get_pcm_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">bytes</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.microphone_usb_gst.GStreamerMicrophone.get_pcm_data" title="Link to this definition"></a></dt>
+<dd><p>Get all PCM data from the ring buffer</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.microphone_usb_gst.GStreamerMicrophone.is_running">
+<span class="sig-name descname"><span class="pre">is_running</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.microphone_usb_gst.GStreamerMicrophone.is_running" title="Link to this definition"></a></dt>
+<dd><p>Check if the microphone is running</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.microphone_usb_gst.GStreamerMicrophone.register_audio_data_callback">
+<span class="sig-name descname"><span class="pre">register_audio_data_callback</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">callback</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Callable</span><span class="p"><span class="pre">[</span></span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="autolife_robot_sdk.utils.html#autolife_robot_sdk.utils.audio_data.AudioData" title="autolife_robot_sdk.utils.audio_data.AudioData"><span class="pre">AudioData</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">None</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.microphone_usb_gst.GStreamerMicrophone.register_audio_data_callback" title="Link to this definition"></a></dt>
+<dd><p>Register a callback to receive raw audio data</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.microphone_usb_gst.GStreamerMicrophone.register_opus_data_callback">
+<span class="sig-name descname"><span class="pre">register_opus_data_callback</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">output_sample_rate</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">output_channels</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">callback</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Callable</span><span class="p"><span class="pre">[</span></span><span class="p"><span class="pre">[</span></span><span class="pre">bytes</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">None</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.microphone_usb_gst.GStreamerMicrophone.register_opus_data_callback" title="Link to this definition"></a></dt>
+<dd><p>Register a callback to receive Opus encoded audio data</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.microphone_usb_gst.GStreamerMicrophone.register_pcm_data_callback">
+<span class="sig-name descname"><span class="pre">register_pcm_data_callback</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">callback</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Callable</span><span class="p"><span class="pre">[</span></span><span class="p"><span class="pre">[</span></span><span class="pre">bytes</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">None</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.microphone_usb_gst.GStreamerMicrophone.register_pcm_data_callback" title="Link to this definition"></a></dt>
+<dd><p>Register a callback to receive raw audio data</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.microphone_usb_gst.GStreamerMicrophone.start">
+<span class="sig-name descname"><span class="pre">start</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.microphone_usb_gst.GStreamerMicrophone.start" title="Link to this definition"></a></dt>
+<dd><p>Start capturing audio</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.microphone_usb_gst.GStreamerMicrophone.stop">
+<span class="sig-name descname"><span class="pre">stop</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.microphone_usb_gst.GStreamerMicrophone.stop" title="Link to this definition"></a></dt>
+<dd><p>Stop capturing audio</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.microphone_usb_gst.GStreamerMicrophone.unregister_audio_data_callback">
+<span class="sig-name descname"><span class="pre">unregister_audio_data_callback</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">callback</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Callable</span><span class="p"><span class="pre">[</span></span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="autolife_robot_sdk.utils.html#autolife_robot_sdk.utils.audio_data.AudioData" title="autolife_robot_sdk.utils.audio_data.AudioData"><span class="pre">AudioData</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">None</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.microphone_usb_gst.GStreamerMicrophone.unregister_audio_data_callback" title="Link to this definition"></a></dt>
+<dd><p>Unregister a raw audio data callback</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.microphone_usb_gst.GStreamerMicrophone.unregister_opus_data_callback">
+<span class="sig-name descname"><span class="pre">unregister_opus_data_callback</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">output_sample_rate</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">output_channels</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">callback</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Callable</span><span class="p"><span class="pre">[</span></span><span class="p"><span class="pre">[</span></span><span class="pre">bytes</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">None</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.microphone_usb_gst.GStreamerMicrophone.unregister_opus_data_callback" title="Link to this definition"></a></dt>
+<dd><p>Unregister an Opus encoded data callback</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.microphone_usb_gst.GStreamerMicrophone.unregister_pcm_data_callback">
+<span class="sig-name descname"><span class="pre">unregister_pcm_data_callback</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">callback</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Callable</span><span class="p"><span class="pre">[</span></span><span class="p"><span class="pre">[</span></span><span class="pre">bytes</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">None</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.microphone_usb_gst.GStreamerMicrophone.unregister_pcm_data_callback" title="Link to this definition"></a></dt>
+<dd><p>Unregister a raw audio data callback</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-autolife_robot_sdk.hardware.multimedia.speaker_usb_alsa">
+<span id="autolife-robot-sdk-hardware-multimedia-speaker-usb-alsa-module"></span><h2>autolife_robot_sdk.hardware.multimedia.speaker_usb_alsa module<a class="headerlink" href="#module-autolife_robot_sdk.hardware.multimedia.speaker_usb_alsa" title="Link to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.speaker_usb_alsa.AlsaSpeaker">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.hardware.multimedia.speaker_usb_alsa.</span></span><span class="sig-name descname"><span class="pre">AlsaSpeaker</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">config</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.speaker_usb_alsa.AlsaSpeaker" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="autolife_robot_sdk.interface.html#autolife_robot_sdk.interface.speaker.SpeakerInterface" title="autolife_robot_sdk.interface.speaker.SpeakerInterface"><code class="xref py py-class docutils literal notranslate"><span class="pre">SpeakerInterface</span></code></a></p>
+<p>Speaker implementation that handles both raw PCM and OPUS encoded audio.</p>
+<p>This class implements the SpeakerInterface and provides functionality to:
+1. Play PCM audio data with format conversion
+2. Play OPUS encoded audio (if GStreamer is available)
+3. Control volume and manage audio buffering
+4. Handle speaker device initialization and recovery</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.speaker_usb_alsa.AlsaSpeaker.add_opus_decoder">
+<span class="sig-name descname"><span class="pre">add_opus_decoder</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">input_sample_rate</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">input_channels</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.speaker_usb_alsa.AlsaSpeaker.add_opus_decoder" title="Link to this definition"></a></dt>
+<dd><p>Create and return an OPUS decoder.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.speaker_usb_alsa.AlsaSpeaker.clear_buffer">
+<span class="sig-name descname"><span class="pre">clear_buffer</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.speaker_usb_alsa.AlsaSpeaker.clear_buffer" title="Link to this definition"></a></dt>
+<dd><p>Clear the audio buffer.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.speaker_usb_alsa.AlsaSpeaker.get_device_id">
+<span class="sig-name descname"><span class="pre">get_device_id</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.speaker_usb_alsa.AlsaSpeaker.get_device_id" title="Link to this definition"></a></dt>
+<dd><p>Get the device ID of the microphone</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.speaker_usb_alsa.AlsaSpeaker.get_volume">
+<span class="sig-name descname"><span class="pre">get_volume</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.speaker_usb_alsa.AlsaSpeaker.get_volume" title="Link to this definition"></a></dt>
+<dd><p>Get the current speaker volume.</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>Current volume level (0-100)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.speaker_usb_alsa.AlsaSpeaker.is_running">
+<span class="sig-name descname"><span class="pre">is_running</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.speaker_usb_alsa.AlsaSpeaker.is_running" title="Link to this definition"></a></dt>
+<dd><p>Check if the microphone is running</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.speaker_usb_alsa.AlsaSpeaker.play_audio_data">
+<span class="sig-name descname"><span class="pre">play_audio_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">audio_data</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="autolife_robot_sdk.utils.html#autolife_robot_sdk.utils.audio_data.AudioData" title="autolife_robot_sdk.utils.audio_data.AudioData"><span class="pre">AudioData</span></a></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.speaker_usb_alsa.AlsaSpeaker.play_audio_data" title="Link to this definition"></a></dt>
+<dd><p>Play audio data</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.speaker_usb_alsa.AlsaSpeaker.play_opus_data">
+<span class="sig-name descname"><span class="pre">play_opus_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">opus_data</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bytes</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sample_rate</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">channels</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.speaker_usb_alsa.AlsaSpeaker.play_opus_data" title="Link to this definition"></a></dt>
+<dd><p>Play OPUS encoded audio data</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.speaker_usb_alsa.AlsaSpeaker.play_pcm_data">
+<span class="sig-name descname"><span class="pre">play_pcm_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">pcm_data</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bytes</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sample_rate</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">channels</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sample_width</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">2</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.speaker_usb_alsa.AlsaSpeaker.play_pcm_data" title="Link to this definition"></a></dt>
+<dd><p>Play raw PCM audio data with the specified format.</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>audio_data: Raw PCM audio data as bytes
+channels: Number of audio channels in the data (1=mono, 2=stereo)
+sample_rate: Sample rate of the audio data in Hz
+sample_width: Sample width in bytes (1=8bit, 2=16bit, etc.)</p>
+</dd>
+<dt>Returns:</dt><dd><p>True if successfully queued for playback, False otherwise</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.speaker_usb_alsa.AlsaSpeaker.remove_opus_decoder">
+<span class="sig-name descname"><span class="pre">remove_opus_decoder</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">input_sample_rate</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">input_channels</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.speaker_usb_alsa.AlsaSpeaker.remove_opus_decoder" title="Link to this definition"></a></dt>
+<dd><p>Remove the OPUS decoder for the specified input format.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.speaker_usb_alsa.AlsaSpeaker.set_volume">
+<span class="sig-name descname"><span class="pre">set_volume</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">volume</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.speaker_usb_alsa.AlsaSpeaker.set_volume" title="Link to this definition"></a></dt>
+<dd><p>Set the speaker volume.</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>volume: Volume level (0-100)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.speaker_usb_alsa.AlsaSpeaker.set_volume_factor">
+<span class="sig-name descname"><span class="pre">set_volume_factor</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">factor</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.speaker_usb_alsa.AlsaSpeaker.set_volume_factor" title="Link to this definition"></a></dt>
+<dd><p>Set software volume factor (applied during playback).</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>factor: Volume multiplier (0.0-5.0 recommended)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.speaker_usb_alsa.AlsaSpeaker.start">
+<span class="sig-name descname"><span class="pre">start</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.speaker_usb_alsa.AlsaSpeaker.start" title="Link to this definition"></a></dt>
+<dd><p>Start the speaker and audio playback.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.speaker_usb_alsa.AlsaSpeaker.stop">
+<span class="sig-name descname"><span class="pre">stop</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.speaker_usb_alsa.AlsaSpeaker.stop" title="Link to this definition"></a></dt>
+<dd><p>Stop the speaker and clean up resources.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-autolife_robot_sdk.hardware.multimedia.utils">
+<span id="autolife-robot-sdk-hardware-multimedia-utils-module"></span><h2>autolife_robot_sdk.hardware.multimedia.utils module<a class="headerlink" href="#module-autolife_robot_sdk.hardware.multimedia.utils" title="Link to this heading"></a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.utils.get_video_device_path_by_usb_bus">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.hardware.multimedia.utils.</span></span><span class="sig-name descname"><span class="pre">get_video_device_path_by_usb_bus</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">bus_info</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.utils.get_video_device_path_by_usb_bus" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.multimedia.utils.scan_v4l2_camera_device">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.hardware.multimedia.utils.</span></span><span class="sig-name descname"><span class="pre">scan_v4l2_camera_device</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">camera_configs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.multimedia.utils.scan_v4l2_camera_device" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</section>
+<section id="module-autolife_robot_sdk.hardware.multimedia">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-autolife_robot_sdk.hardware.multimedia" title="Link to this heading"></a></h2>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="autolife_robot_sdk.hardware.motor_lk.can_api.html" class="btn btn-neutral float-left" title="autolife_robot_sdk.hardware.motor_lk.can_api package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="autolife_robot_sdk.hardware.system.html" class="btn btn-neutral float-right" title="autolife_robot_sdk.hardware.system package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, AutolifeRobotics.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>  
+
+  <style>
+         .wy-nav-content { max-width: none; }
+  </style>
+
+
+
+</body>
+</html>

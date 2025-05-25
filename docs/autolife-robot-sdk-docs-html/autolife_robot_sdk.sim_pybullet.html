@@ -1,0 +1,1304 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>autolife_robot_sdk.sim_pybullet package &mdash; AutolifeRobotSDK 1.0.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=8d563738"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="autolife_robot_sdk.utils package" href="autolife_robot_sdk.utils.html" />
+    <link rel="prev" title="autolife_robot_sdk.interface package" href="autolife_robot_sdk.interface.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            AutolifeRobotSDK
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">autolife_robot_sdk</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="autolife_robot_sdk.html">autolife_robot_sdk package</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="autolife_robot_sdk.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="autolife_robot_sdk.dummy.html">autolife_robot_sdk.dummy package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="autolife_robot_sdk.hardware.html">autolife_robot_sdk.hardware package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="autolife_robot_sdk.interface.html">autolife_robot_sdk.interface package</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">autolife_robot_sdk.sim_pybullet package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="autolife_robot_sdk.utils.html">autolife_robot_sdk.utils package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="autolife_robot_sdk.viewer_meshcat.html">autolife_robot_sdk.viewer_meshcat package</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="autolife_robot_sdk.html#module-autolife_robot_sdk">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">AutolifeRobotSDK</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="modules.html">autolife_robot_sdk</a></li>
+          <li class="breadcrumb-item"><a href="autolife_robot_sdk.html">autolife_robot_sdk package</a></li>
+      <li class="breadcrumb-item active">autolife_robot_sdk.sim_pybullet package</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/autolife_robot_sdk.sim_pybullet.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="autolife-robot-sdk-sim-pybullet-package">
+<h1>autolife_robot_sdk.sim_pybullet package<a class="headerlink" href="#autolife-robot-sdk-sim-pybullet-package" title="Link to this heading"></a></h1>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Link to this heading"></a></h2>
+</section>
+<section id="module-autolife_robot_sdk.sim_pybullet.robot_autolife_s1">
+<span id="autolife-robot-sdk-sim-pybullet-robot-autolife-s1-module"></span><h2>autolife_robot_sdk.sim_pybullet.robot_autolife_s1 module<a class="headerlink" href="#module-autolife_robot_sdk.sim_pybullet.robot_autolife_s1" title="Link to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.sim_pybullet.robot_autolife_s1.</span></span><span class="sig-name descname"><span class="pre">AutolifeRobotV06</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">client</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient" title="autolife_robot_sdk.sim_pybullet.sim_client.SimClient"><span class="pre">SimClient</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">existing_robot_id</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="#autolife_robot_sdk.sim_pybullet.robot_base.RobotBase" title="autolife_robot_sdk.sim_pybullet.robot_base.RobotBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">RobotBase</span></code></a></p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.AUTOLIFE_ROBOT_JOINT_GROUPS">
+<span class="sig-name descname"><span class="pre">AUTOLIFE_ROBOT_JOINT_GROUPS</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">{'left_arm':</span> <span class="pre">['Joint_Ankle',</span> <span class="pre">'Joint_Knee',</span> <span class="pre">'Joint_Waist_Pitch',</span> <span class="pre">'Joint_Waist_Yaw',</span> <span class="pre">'Joint_Left_Shoulder_Inner',</span> <span class="pre">'Joint_Left_Shoulder_Outer',</span> <span class="pre">'Joint_Left_UpperArm',</span> <span class="pre">'Joint_Left_Elbow',</span> <span class="pre">'Joint_Left_Forearm',</span> <span class="pre">'Joint_Left_Wrist_Upper',</span> <span class="pre">'Joint_Left_Wrist_Lower'],</span> <span class="pre">'left_gripper':</span> <span class="pre">'',</span> <span class="pre">'right_arm':</span> <span class="pre">['Joint_Ankle',</span> <span class="pre">'Joint_Knee',</span> <span class="pre">'Joint_Waist_Pitch',</span> <span class="pre">'Joint_Waist_Yaw',</span> <span class="pre">'Joint_Right_Shoulder_Inner',</span> <span class="pre">'Joint_Right_Shoulder_Outer',</span> <span class="pre">'Joint_Right_UpperArm',</span> <span class="pre">'Joint_Right_Elbow',</span> <span class="pre">'Joint_Right_Forearm',</span> <span class="pre">'Joint_Right_Wrist_Upper',</span> <span class="pre">'Joint_Right_Wrist_Lower'],</span> <span class="pre">'right_gripper':</span> <span class="pre">'',</span> <span class="pre">'torso':</span> <span class="pre">['Joint_Ankle',</span> <span class="pre">'Joint_Knee']}</span></em><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.AUTOLIFE_ROBOT_JOINT_GROUPS" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.AUTOLIFE_ROBOT_LINK_GROUPS">
+<span class="sig-name descname"><span class="pre">AUTOLIFE_ROBOT_LINK_GROUPS</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">{'base':</span> <span class="pre">'Link_Ground_Vehicle',</span> <span class="pre">'eef_left':</span> <span class="pre">'Link_Left_Gripper',</span> <span class="pre">'eef_right':</span> <span class="pre">'Link_Right_Gripper',</span> <span class="pre">'torso':</span> <span class="pre">'Link_Knee_to_Waist_Pitch'}</span></em><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.AUTOLIFE_ROBOT_LINK_GROUPS" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.AUTOLIFE_ROBOT_SRDF_PATH">
+<span class="sig-name descname"><span class="pre">AUTOLIFE_ROBOT_SRDF_PATH</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'/__w/AutolifeRobotSDK/AutolifeRobotSDK/descriptions/autolife_s1/srdfs/robot_v0_6.srdf'</span></em><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.AUTOLIFE_ROBOT_SRDF_PATH" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.AUTOLIFE_ROBOT_URDF_PATH">
+<span class="sig-name descname"><span class="pre">AUTOLIFE_ROBOT_URDF_PATH</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'/__w/AutolifeRobotSDK/AutolifeRobotSDK/descriptions/autolife_s1/urdfs/robot_v0_6.urdf'</span></em><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.AUTOLIFE_ROBOT_URDF_PATH" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_eef_left_fk_mat">
+<span class="sig-name descname"><span class="pre">get_eef_left_fk_mat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joints_conf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_eef_left_fk_mat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_eef_left_fk_xyzquat">
+<span class="sig-name descname"><span class="pre">get_eef_left_fk_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joints_conf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_eef_left_fk_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_eef_left_ik_mat_kdl">
+<span class="sig-name descname"><span class="pre">get_eef_left_ik_mat_kdl</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mat_target_pose</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">initial_joints</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">[0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0]</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_eef_left_ik_mat_kdl" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_eef_left_ik_mat_pybullet">
+<span class="sig-name descname"><span class="pre">get_eef_left_ik_mat_pybullet</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mat_target_pose</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">show_name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_eef_left_ik_mat_pybullet" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_eef_left_ik_xyzquat_kdl">
+<span class="sig-name descname"><span class="pre">get_eef_left_ik_xyzquat_kdl</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">xyzquat_target_pose</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">initial_joints</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">[0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0]</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_eef_left_ik_xyzquat_kdl" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_eef_left_ik_xyzquat_pybullet">
+<span class="sig-name descname"><span class="pre">get_eef_left_ik_xyzquat_pybullet</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">xyzquat_target_pose</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">show_name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_eef_left_ik_xyzquat_pybullet" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_eef_left_pose_mat">
+<span class="sig-name descname"><span class="pre">get_eef_left_pose_mat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_eef_left_pose_mat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_eef_left_pose_xyzquat">
+<span class="sig-name descname"><span class="pre">get_eef_left_pose_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_eef_left_pose_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_eef_right_fk_mat">
+<span class="sig-name descname"><span class="pre">get_eef_right_fk_mat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joints_conf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_eef_right_fk_mat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_eef_right_fk_xyzquat">
+<span class="sig-name descname"><span class="pre">get_eef_right_fk_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joints_conf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_eef_right_fk_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_eef_right_ik_mat_kdl">
+<span class="sig-name descname"><span class="pre">get_eef_right_ik_mat_kdl</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mat_target_pose</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">initial_joints</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">[0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0]</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_eef_right_ik_mat_kdl" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_eef_right_ik_mat_pybullet">
+<span class="sig-name descname"><span class="pre">get_eef_right_ik_mat_pybullet</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mat_target_pose</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">show_name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_eef_right_ik_mat_pybullet" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_eef_right_ik_xyzquat_kdl">
+<span class="sig-name descname"><span class="pre">get_eef_right_ik_xyzquat_kdl</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">xyzquat_target_pose</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">initial_joints</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">[0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0]</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_eef_right_ik_xyzquat_kdl" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_eef_right_ik_xyzquat_pybullet">
+<span class="sig-name descname"><span class="pre">get_eef_right_ik_xyzquat_pybullet</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">xyzquat_target_pose</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">show_name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_eef_right_ik_xyzquat_pybullet" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_eef_right_pose_mat">
+<span class="sig-name descname"><span class="pre">get_eef_right_pose_mat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_eef_right_pose_mat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_eef_right_pose_xyzquat">
+<span class="sig-name descname"><span class="pre">get_eef_right_pose_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_eef_right_pose_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_target_link_fk_xyzquat">
+<span class="sig-name descname"><span class="pre">get_target_link_fk_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">link_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">joints_conf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_target_link_fk_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_target_link_pose_xyzquat">
+<span class="sig-name descname"><span class="pre">get_target_link_pose_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">link_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_target_link_pose_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_torso_fk_mat">
+<span class="sig-name descname"><span class="pre">get_torso_fk_mat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joints_conf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_torso_fk_mat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_torso_fk_xyzquat">
+<span class="sig-name descname"><span class="pre">get_torso_fk_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joints_conf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_torso_fk_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_torso_pose_mat">
+<span class="sig-name descname"><span class="pre">get_torso_pose_mat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_torso_pose_mat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_torso_pose_xyzquat">
+<span class="sig-name descname"><span class="pre">get_torso_pose_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.get_torso_pose_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.move_left_gripper">
+<span class="sig-name descname"><span class="pre">move_left_gripper</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joint_value</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.move_left_gripper" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.move_right_gripper">
+<span class="sig-name descname"><span class="pre">move_right_gripper</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joint_value</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV06.move_right_gripper" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.sim_pybullet.robot_autolife_s1.</span></span><span class="sig-name descname"><span class="pre">AutolifeRobotV07</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">client</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient" title="autolife_robot_sdk.sim_pybullet.sim_client.SimClient"><span class="pre">SimClient</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">existing_robot_id</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="#autolife_robot_sdk.sim_pybullet.robot_base.RobotBase" title="autolife_robot_sdk.sim_pybullet.robot_base.RobotBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">RobotBase</span></code></a></p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.AUTOLIFE_ROBOT_GRIPPER_MIMIC_JOINT_MULTIPLIER">
+<span class="sig-name descname"><span class="pre">AUTOLIFE_ROBOT_GRIPPER_MIMIC_JOINT_MULTIPLIER</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">{'Joint_Left_Gripper':</span> <span class="pre">{'Joint_Left_Gripper_Left_Finger':</span> <span class="pre">-1.0,</span> <span class="pre">'Joint_Left_Gripper_Left_Inner_Knuckle':</span> <span class="pre">1.0,</span> <span class="pre">'Joint_Left_Gripper_Right_Finger':</span> <span class="pre">1.0,</span> <span class="pre">'Joint_Left_Gripper_Right_Inner_Knuckle':</span> <span class="pre">-1.0,</span> <span class="pre">'Joint_Left_Gripper_Right_Outer_Knuckle':</span> <span class="pre">-1.0},</span> <span class="pre">'Joint_Right_Gripper':</span> <span class="pre">{'Joint_Right_Gripper_Left_Finger':</span> <span class="pre">-1.0,</span> <span class="pre">'Joint_Right_Gripper_Left_Inner_Knuckle':</span> <span class="pre">1.0,</span> <span class="pre">'Joint_Right_Gripper_Right_Finger':</span> <span class="pre">1.0,</span> <span class="pre">'Joint_Right_Gripper_Right_Inner_Knuckle':</span> <span class="pre">-1.0,</span> <span class="pre">'Joint_Right_Gripper_Right_Outer_Knuckle':</span> <span class="pre">-1.0}}</span></em><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.AUTOLIFE_ROBOT_GRIPPER_MIMIC_JOINT_MULTIPLIER" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.AUTOLIFE_ROBOT_JOINT_GROUPS">
+<span class="sig-name descname"><span class="pre">AUTOLIFE_ROBOT_JOINT_GROUPS</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">{'ground_vehicle':</span> <span class="pre">['Joint_Ground_Vehicle_X',</span> <span class="pre">'Joint_Ground_Vehicle_Y',</span> <span class="pre">'Joint_Ground_Vehicle_Z'],</span> <span class="pre">'left_arm':</span> <span class="pre">['Joint_Ankle',</span> <span class="pre">'Joint_Knee',</span> <span class="pre">'Joint_Waist_Pitch',</span> <span class="pre">'Joint_Waist_Yaw',</span> <span class="pre">'Joint_Left_Shoulder_Inner',</span> <span class="pre">'Joint_Left_Shoulder_Outer',</span> <span class="pre">'Joint_Left_UpperArm',</span> <span class="pre">'Joint_Left_Elbow',</span> <span class="pre">'Joint_Left_Forearm',</span> <span class="pre">'Joint_Left_Wrist_Upper',</span> <span class="pre">'Joint_Left_Wrist_Lower'],</span> <span class="pre">'left_gripper':</span> <span class="pre">['Joint_Left_Gripper'],</span> <span class="pre">'right_arm':</span> <span class="pre">['Joint_Ankle',</span> <span class="pre">'Joint_Knee',</span> <span class="pre">'Joint_Waist_Pitch',</span> <span class="pre">'Joint_Waist_Yaw',</span> <span class="pre">'Joint_Right_Shoulder_Inner',</span> <span class="pre">'Joint_Right_Shoulder_Outer',</span> <span class="pre">'Joint_Right_UpperArm',</span> <span class="pre">'Joint_Right_Elbow',</span> <span class="pre">'Joint_Right_Forearm',</span> <span class="pre">'Joint_Right_Wrist_Upper',</span> <span class="pre">'Joint_Right_Wrist_Lower'],</span> <span class="pre">'right_gripper':</span> <span class="pre">['Joint_Right_Gripper'],</span> <span class="pre">'torso':</span> <span class="pre">['Joint_Ankle',</span> <span class="pre">'Joint_Knee']}</span></em><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.AUTOLIFE_ROBOT_JOINT_GROUPS" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.AUTOLIFE_ROBOT_LINK_GROUPS">
+<span class="sig-name descname"><span class="pre">AUTOLIFE_ROBOT_LINK_GROUPS</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">{'base':</span> <span class="pre">'Link_Ground_Vehicle',</span> <span class="pre">'eef_left':</span> <span class="pre">'Link_Left_Wrist_Lower_to_Gripper',</span> <span class="pre">'eef_right':</span> <span class="pre">'Link_Right_Wrist_Lower_to_Gripper',</span> <span class="pre">'hand_camera_left':</span> <span class="pre">'Link_Camera_Gripper_Left',</span> <span class="pre">'hand_camera_right':</span> <span class="pre">'Link_Camera_Gripper_Right',</span> <span class="pre">'head_camera_front_left':</span> <span class="pre">'Link_Camera_Head_Left_Eye',</span> <span class="pre">'head_camera_front_right':</span> <span class="pre">'Link_Camera_Head_Right_Eye',</span> <span class="pre">'head_camera_rear':</span> <span class="pre">'Link_Camera_Head_Back',</span> <span class="pre">'imu':</span> <span class="pre">'Link_IMU',</span> <span class="pre">'lidar_front':</span> <span class="pre">'Link_Lidar_Front',</span> <span class="pre">'lidar_rear':</span> <span class="pre">'Link_Lidar_Back',</span> <span class="pre">'torso':</span> <span class="pre">'Link_Knee_to_Waist_Pitch'}</span></em><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.AUTOLIFE_ROBOT_LINK_GROUPS" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.AUTOLIFE_ROBOT_SRDF_PATH">
+<span class="sig-name descname"><span class="pre">AUTOLIFE_ROBOT_SRDF_PATH</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'/__w/AutolifeRobotSDK/AutolifeRobotSDK/descriptions/autolife_s1/srdfs/robot_v0_7.srdf'</span></em><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.AUTOLIFE_ROBOT_SRDF_PATH" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.AUTOLIFE_ROBOT_URDF_PATH">
+<span class="sig-name descname"><span class="pre">AUTOLIFE_ROBOT_URDF_PATH</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'/__w/AutolifeRobotSDK/AutolifeRobotSDK/descriptions/autolife_s1/urdfs/robot_v0_7.urdf'</span></em><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.AUTOLIFE_ROBOT_URDF_PATH" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_eef_left_fk_mat">
+<span class="sig-name descname"><span class="pre">get_eef_left_fk_mat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joints_conf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_eef_left_fk_mat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_eef_left_fk_xyzquat">
+<span class="sig-name descname"><span class="pre">get_eef_left_fk_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joints_conf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_eef_left_fk_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_eef_left_ik_mat_kdl">
+<span class="sig-name descname"><span class="pre">get_eef_left_ik_mat_kdl</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mat_target_pose</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">initial_joints</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">[0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0]</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_eef_left_ik_mat_kdl" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_eef_left_ik_mat_pybullet">
+<span class="sig-name descname"><span class="pre">get_eef_left_ik_mat_pybullet</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mat_target_pose</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">show_name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_eef_left_ik_mat_pybullet" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_eef_left_ik_xyzquat_kdl">
+<span class="sig-name descname"><span class="pre">get_eef_left_ik_xyzquat_kdl</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">xyzquat_target_pose</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">initial_joints</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">[0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0]</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_eef_left_ik_xyzquat_kdl" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_eef_left_ik_xyzquat_pybullet">
+<span class="sig-name descname"><span class="pre">get_eef_left_ik_xyzquat_pybullet</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">xyzquat_target_pose</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">show_name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_eef_left_ik_xyzquat_pybullet" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_eef_left_pose_mat">
+<span class="sig-name descname"><span class="pre">get_eef_left_pose_mat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_eef_left_pose_mat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_eef_left_pose_xyzquat">
+<span class="sig-name descname"><span class="pre">get_eef_left_pose_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_eef_left_pose_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_eef_right_fk_mat">
+<span class="sig-name descname"><span class="pre">get_eef_right_fk_mat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joints_conf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_eef_right_fk_mat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_eef_right_fk_xyzquat">
+<span class="sig-name descname"><span class="pre">get_eef_right_fk_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joints_conf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_eef_right_fk_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_eef_right_ik_mat_kdl">
+<span class="sig-name descname"><span class="pre">get_eef_right_ik_mat_kdl</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mat_target_pose</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">initial_joints</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">[0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0]</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_eef_right_ik_mat_kdl" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_eef_right_ik_mat_pybullet">
+<span class="sig-name descname"><span class="pre">get_eef_right_ik_mat_pybullet</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mat_target_pose</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">show_name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_eef_right_ik_mat_pybullet" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_eef_right_ik_xyzquat_kdl">
+<span class="sig-name descname"><span class="pre">get_eef_right_ik_xyzquat_kdl</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">xyzquat_target_pose</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">initial_joints</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">[0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0]</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_eef_right_ik_xyzquat_kdl" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_eef_right_ik_xyzquat_pybullet">
+<span class="sig-name descname"><span class="pre">get_eef_right_ik_xyzquat_pybullet</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">xyzquat_target_pose</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">show_name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_eef_right_ik_xyzquat_pybullet" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_eef_right_pose_mat">
+<span class="sig-name descname"><span class="pre">get_eef_right_pose_mat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_eef_right_pose_mat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_eef_right_pose_xyzquat">
+<span class="sig-name descname"><span class="pre">get_eef_right_pose_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_eef_right_pose_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_hand_cam_left_pose_xyzquat">
+<span class="sig-name descname"><span class="pre">get_hand_cam_left_pose_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_hand_cam_left_pose_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_hand_cam_right_pose_xyzquat">
+<span class="sig-name descname"><span class="pre">get_hand_cam_right_pose_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_hand_cam_right_pose_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_head_cam_front_left_pose_xyzquat">
+<span class="sig-name descname"><span class="pre">get_head_cam_front_left_pose_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_head_cam_front_left_pose_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_head_cam_front_right_pose_xyzquat">
+<span class="sig-name descname"><span class="pre">get_head_cam_front_right_pose_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_head_cam_front_right_pose_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_head_cam_rear_pose_xyzquat">
+<span class="sig-name descname"><span class="pre">get_head_cam_rear_pose_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_head_cam_rear_pose_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_imu_pose_xyzquat">
+<span class="sig-name descname"><span class="pre">get_imu_pose_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_imu_pose_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_lidar_front_pose_xyzquat">
+<span class="sig-name descname"><span class="pre">get_lidar_front_pose_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_lidar_front_pose_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_lidar_rear_pose_xyzquat">
+<span class="sig-name descname"><span class="pre">get_lidar_rear_pose_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_lidar_rear_pose_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_target_link_fk_xyzquat">
+<span class="sig-name descname"><span class="pre">get_target_link_fk_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">link_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">joints_conf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_target_link_fk_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_target_link_pose_xyzquat">
+<span class="sig-name descname"><span class="pre">get_target_link_pose_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">link_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_target_link_pose_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_torso_fk_mat">
+<span class="sig-name descname"><span class="pre">get_torso_fk_mat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joints_conf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_torso_fk_mat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_torso_fk_xyzquat">
+<span class="sig-name descname"><span class="pre">get_torso_fk_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joints_conf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_torso_fk_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_torso_pose_mat">
+<span class="sig-name descname"><span class="pre">get_torso_pose_mat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_torso_pose_mat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_torso_pose_xyzquat">
+<span class="sig-name descname"><span class="pre">get_torso_pose_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.get_torso_pose_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.reset_pose">
+<span class="sig-name descname"><span class="pre">reset_pose</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV07.reset_pose" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.sim_pybullet.robot_autolife_s1.</span></span><span class="sig-name descname"><span class="pre">AutolifeRobotV10</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">client</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient" title="autolife_robot_sdk.sim_pybullet.sim_client.SimClient"><span class="pre">SimClient</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">existing_robot_id</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="#autolife_robot_sdk.sim_pybullet.robot_base.RobotBase" title="autolife_robot_sdk.sim_pybullet.robot_base.RobotBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">RobotBase</span></code></a></p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.AUTOLIFE_ROBOT_GRIPPER_MIMIC_JOINT_MULTIPLIER">
+<span class="sig-name descname"><span class="pre">AUTOLIFE_ROBOT_GRIPPER_MIMIC_JOINT_MULTIPLIER</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">{'Joint_Left_Gripper':</span> <span class="pre">{'Joint_Left_Gripper_Left_Finger':</span> <span class="pre">-1.0,</span> <span class="pre">'Joint_Left_Gripper_Left_Inner_Knuckle':</span> <span class="pre">1.0,</span> <span class="pre">'Joint_Left_Gripper_Right_Finger':</span> <span class="pre">1.0,</span> <span class="pre">'Joint_Left_Gripper_Right_Inner_Knuckle':</span> <span class="pre">-1.0,</span> <span class="pre">'Joint_Left_Gripper_Right_Outer_Knuckle':</span> <span class="pre">-1.0},</span> <span class="pre">'Joint_Right_Gripper':</span> <span class="pre">{'Joint_Right_Gripper_Left_Finger':</span> <span class="pre">-1.0,</span> <span class="pre">'Joint_Right_Gripper_Left_Inner_Knuckle':</span> <span class="pre">1.0,</span> <span class="pre">'Joint_Right_Gripper_Right_Finger':</span> <span class="pre">1.0,</span> <span class="pre">'Joint_Right_Gripper_Right_Inner_Knuckle':</span> <span class="pre">-1.0,</span> <span class="pre">'Joint_Right_Gripper_Right_Outer_Knuckle':</span> <span class="pre">-1.0}}</span></em><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.AUTOLIFE_ROBOT_GRIPPER_MIMIC_JOINT_MULTIPLIER" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.AUTOLIFE_ROBOT_JOINT_GROUPS">
+<span class="sig-name descname"><span class="pre">AUTOLIFE_ROBOT_JOINT_GROUPS</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">{'left_arm':</span> <span class="pre">['Joint_Ankle',</span> <span class="pre">'Joint_Knee',</span> <span class="pre">'Joint_Waist_Pitch',</span> <span class="pre">'Joint_Waist_Yaw',</span> <span class="pre">'Joint_Left_Shoulder_Inner',</span> <span class="pre">'Joint_Left_Shoulder_Outer',</span> <span class="pre">'Joint_Left_UpperArm',</span> <span class="pre">'Joint_Left_Elbow',</span> <span class="pre">'Joint_Left_Forearm',</span> <span class="pre">'Joint_Left_Wrist_Upper',</span> <span class="pre">'Joint_Left_Wrist_Lower'],</span> <span class="pre">'right_arm':</span> <span class="pre">['Joint_Ankle',</span> <span class="pre">'Joint_Knee',</span> <span class="pre">'Joint_Waist_Pitch',</span> <span class="pre">'Joint_Waist_Yaw',</span> <span class="pre">'Joint_Right_Shoulder_Inner',</span> <span class="pre">'Joint_Right_Shoulder_Outer',</span> <span class="pre">'Joint_Right_UpperArm',</span> <span class="pre">'Joint_Right_Elbow',</span> <span class="pre">'Joint_Right_Forearm',</span> <span class="pre">'Joint_Right_Wrist_Upper',</span> <span class="pre">'Joint_Right_Wrist_Lower'],</span> <span class="pre">'torso':</span> <span class="pre">['Joint_Ankle',</span> <span class="pre">'Joint_Knee']}</span></em><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.AUTOLIFE_ROBOT_JOINT_GROUPS" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.AUTOLIFE_ROBOT_LINK_GROUPS">
+<span class="sig-name descname"><span class="pre">AUTOLIFE_ROBOT_LINK_GROUPS</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">{'base':</span> <span class="pre">'Link_Ground_Vehicle',</span> <span class="pre">'eef_left':</span> <span class="pre">'Link_Left_Wrist_Lower_to_Gripper',</span> <span class="pre">'eef_right':</span> <span class="pre">'Link_Right_Wrist_Lower_to_Gripper',</span> <span class="pre">'hand_camera_left':</span> <span class="pre">'Link_Camera_Gripper_Left',</span> <span class="pre">'hand_camera_right':</span> <span class="pre">'Link_Camera_Gripper_Right',</span> <span class="pre">'head_camera_front_left':</span> <span class="pre">'Link_Camera_Head_Left_Eye',</span> <span class="pre">'head_camera_front_right':</span> <span class="pre">'Link_Camera_Head_Right_Eye',</span> <span class="pre">'head_camera_rear':</span> <span class="pre">'Link_Camera_Head_Back',</span> <span class="pre">'imu':</span> <span class="pre">'Link_IMU',</span> <span class="pre">'lidar_front':</span> <span class="pre">'Link_Lidar_Front',</span> <span class="pre">'lidar_rear':</span> <span class="pre">'Link_Lidar_Back',</span> <span class="pre">'torso':</span> <span class="pre">'Link_Knee_to_Waist_Pitch'}</span></em><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.AUTOLIFE_ROBOT_LINK_GROUPS" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.AUTOLIFE_ROBOT_SRDF_PATH">
+<span class="sig-name descname"><span class="pre">AUTOLIFE_ROBOT_SRDF_PATH</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'/__w/AutolifeRobotSDK/AutolifeRobotSDK/descriptions/autolife_s1/srdfs/robot_v1_0.srdf'</span></em><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.AUTOLIFE_ROBOT_SRDF_PATH" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.AUTOLIFE_ROBOT_URDF_PATH">
+<span class="sig-name descname"><span class="pre">AUTOLIFE_ROBOT_URDF_PATH</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'/__w/AutolifeRobotSDK/AutolifeRobotSDK/descriptions/autolife_s1/urdfs/robot_v1_0.urdf'</span></em><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.AUTOLIFE_ROBOT_URDF_PATH" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_eef_left_fk_mat">
+<span class="sig-name descname"><span class="pre">get_eef_left_fk_mat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joints_conf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_eef_left_fk_mat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_eef_left_fk_xyzquat">
+<span class="sig-name descname"><span class="pre">get_eef_left_fk_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joints_conf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_eef_left_fk_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_eef_left_ik_mat_kdl">
+<span class="sig-name descname"><span class="pre">get_eef_left_ik_mat_kdl</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mat_target_pose</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">initial_joints</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">[0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0]</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_eef_left_ik_mat_kdl" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_eef_left_ik_mat_pybullet">
+<span class="sig-name descname"><span class="pre">get_eef_left_ik_mat_pybullet</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mat_target_pose</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">show_name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_eef_left_ik_mat_pybullet" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_eef_left_ik_xyzquat_kdl">
+<span class="sig-name descname"><span class="pre">get_eef_left_ik_xyzquat_kdl</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">xyzquat_target_pose</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">initial_joints</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">[0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0]</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_eef_left_ik_xyzquat_kdl" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_eef_left_ik_xyzquat_pybullet">
+<span class="sig-name descname"><span class="pre">get_eef_left_ik_xyzquat_pybullet</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">xyzquat_target_pose</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">show_name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_eef_left_ik_xyzquat_pybullet" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_eef_left_pose_mat">
+<span class="sig-name descname"><span class="pre">get_eef_left_pose_mat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_eef_left_pose_mat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_eef_left_pose_xyzquat">
+<span class="sig-name descname"><span class="pre">get_eef_left_pose_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_eef_left_pose_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_eef_right_fk_mat">
+<span class="sig-name descname"><span class="pre">get_eef_right_fk_mat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joints_conf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_eef_right_fk_mat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_eef_right_fk_xyzquat">
+<span class="sig-name descname"><span class="pre">get_eef_right_fk_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joints_conf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_eef_right_fk_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_eef_right_ik_mat_kdl">
+<span class="sig-name descname"><span class="pre">get_eef_right_ik_mat_kdl</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mat_target_pose</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">initial_joints</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">[0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0]</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_eef_right_ik_mat_kdl" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_eef_right_ik_mat_pybullet">
+<span class="sig-name descname"><span class="pre">get_eef_right_ik_mat_pybullet</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mat_target_pose</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">show_name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_eef_right_ik_mat_pybullet" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_eef_right_ik_xyzquat_kdl">
+<span class="sig-name descname"><span class="pre">get_eef_right_ik_xyzquat_kdl</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">xyzquat_target_pose</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">initial_joints</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">[0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0]</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_eef_right_ik_xyzquat_kdl" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_eef_right_ik_xyzquat_pybullet">
+<span class="sig-name descname"><span class="pre">get_eef_right_ik_xyzquat_pybullet</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">xyzquat_target_pose</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">show_name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_eef_right_ik_xyzquat_pybullet" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_eef_right_pose_mat">
+<span class="sig-name descname"><span class="pre">get_eef_right_pose_mat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_eef_right_pose_mat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_eef_right_pose_xyzquat">
+<span class="sig-name descname"><span class="pre">get_eef_right_pose_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_eef_right_pose_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_hand_cam_left_pose_xyzquat">
+<span class="sig-name descname"><span class="pre">get_hand_cam_left_pose_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_hand_cam_left_pose_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_hand_cam_right_pose_xyzquat">
+<span class="sig-name descname"><span class="pre">get_hand_cam_right_pose_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_hand_cam_right_pose_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_head_cam_front_left_pose_xyzquat">
+<span class="sig-name descname"><span class="pre">get_head_cam_front_left_pose_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_head_cam_front_left_pose_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_head_cam_front_right_pose_xyzquat">
+<span class="sig-name descname"><span class="pre">get_head_cam_front_right_pose_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_head_cam_front_right_pose_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_head_cam_rear_pose_xyzquat">
+<span class="sig-name descname"><span class="pre">get_head_cam_rear_pose_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_head_cam_rear_pose_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_imu_pose_xyzquat">
+<span class="sig-name descname"><span class="pre">get_imu_pose_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_imu_pose_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_lidar_front_pose_xyzquat">
+<span class="sig-name descname"><span class="pre">get_lidar_front_pose_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_lidar_front_pose_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_lidar_rear_pose_xyzquat">
+<span class="sig-name descname"><span class="pre">get_lidar_rear_pose_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_lidar_rear_pose_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_target_link_fk_xyzquat">
+<span class="sig-name descname"><span class="pre">get_target_link_fk_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">link_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">joints_conf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_target_link_fk_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_target_link_pose_xyzquat">
+<span class="sig-name descname"><span class="pre">get_target_link_pose_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">link_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_target_link_pose_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_torso_fk_mat">
+<span class="sig-name descname"><span class="pre">get_torso_fk_mat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joints_conf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_torso_fk_mat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_torso_fk_xyzquat">
+<span class="sig-name descname"><span class="pre">get_torso_fk_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joints_conf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_torso_fk_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_torso_pose_mat">
+<span class="sig-name descname"><span class="pre">get_torso_pose_mat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_torso_pose_mat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_torso_pose_xyzquat">
+<span class="sig-name descname"><span class="pre">get_torso_pose_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref_link</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Link_Ground_Vehicle'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.get_torso_pose_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.reset_pose">
+<span class="sig-name descname"><span class="pre">reset_pose</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_autolife_s1.AutolifeRobotV10.reset_pose" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-autolife_robot_sdk.sim_pybullet.robot_base">
+<span id="autolife-robot-sdk-sim-pybullet-robot-base-module"></span><h2>autolife_robot_sdk.sim_pybullet.robot_base module<a class="headerlink" href="#module-autolife_robot_sdk.sim_pybullet.robot_base" title="Link to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_base.RobotBase">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.sim_pybullet.robot_base.</span></span><span class="sig-name descname"><span class="pre">RobotBase</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">client</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient" title="autolife_robot_sdk.sim_pybullet.sim_client.SimClient"><span class="pre">SimClient</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">existing_robot_id</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_base.RobotBase" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.calculate_body_jacobian_pin">
+<span class="sig-name descname"><span class="pre">calculate_body_jacobian_pin</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joint_conf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">eef_link_idx_pin</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.calculate_body_jacobian_pin" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.calculate_jacobian_pybullet">
+<span class="sig-name descname"><span class="pre">calculate_jacobian_pybullet</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joint_conf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">eef_link_name</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.calculate_jacobian_pybullet" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.check_if_self_collide">
+<span class="sig-name descname"><span class="pre">check_if_self_collide</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joints_conf</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.check_if_self_collide" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.fk_kdl_mat">
+<span class="sig-name descname"><span class="pre">fk_kdl_mat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">eef_link_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">joints_conf</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.fk_kdl_mat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.fk_kdl_xyzquat">
+<span class="sig-name descname"><span class="pre">fk_kdl_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">eef_link_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">joints_conf</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.fk_kdl_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.fk_pin_mat">
+<span class="sig-name descname"><span class="pre">fk_pin_mat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">eef_link_idx_list</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">joints_conf</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.fk_pin_mat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.fk_pin_xyzquat">
+<span class="sig-name descname"><span class="pre">fk_pin_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">eef_link_idx_list</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">joints_conf</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.fk_pin_xyzquat" title="Link to this definition"></a></dt>
+<dd><p>Compute the forward kinematics for a given eef index and joint positions.</p>
+<p>Parameters:
+- joints_conf: Array of joint positions.</p>
+<p>Returns:
+- The pose of the end-effector in the world frame.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.get_joint_position">
+<span class="sig-name descname"><span class="pre">get_joint_position</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joint_name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.get_joint_position" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.get_joint_velocity">
+<span class="sig-name descname"><span class="pre">get_joint_velocity</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joint_name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.get_joint_velocity" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.get_joints_group_idx_by_name">
+<span class="sig-name descname"><span class="pre">get_joints_group_idx_by_name</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joints_grp_name</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.get_joints_group_idx_by_name" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.get_joints_position">
+<span class="sig-name descname"><span class="pre">get_joints_position</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joints_grp_names</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.get_joints_position" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.get_joints_velocity">
+<span class="sig-name descname"><span class="pre">get_joints_velocity</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joints_grp_names</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.get_joints_velocity" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.get_link_pose_mat">
+<span class="sig-name descname"><span class="pre">get_link_pose_mat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">target_link_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link_id</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.get_link_pose_mat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.get_link_pose_xyzquat">
+<span class="sig-name descname"><span class="pre">get_link_pose_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">target_link_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link_id</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.get_link_pose_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.get_robot_dof">
+<span class="sig-name descname"><span class="pre">get_robot_dof</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.get_robot_dof" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.hide_link_frame_axis">
+<span class="sig-name descname"><span class="pre">hide_link_frame_axis</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">link_name</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.hide_link_frame_axis" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.hide_vr_frame_axis">
+<span class="sig-name descname"><span class="pre">hide_vr_frame_axis</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">link_name</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.hide_vr_frame_axis" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.ik_kdl_mat">
+<span class="sig-name descname"><span class="pre">ik_kdl_mat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">eef_link_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mat_target_pose_in_ref_link_frame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">initial_joints_conf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">method</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'lma'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.ik_kdl_mat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.ik_kdl_xyzquat">
+<span class="sig-name descname"><span class="pre">ik_kdl_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">eef_link_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_link_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">xyzquat_target_pose_in_ref_link_frame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">initial_joints_conf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">method</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'lma'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.ik_kdl_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.ik_pybullet_mat">
+<span class="sig-name descname"><span class="pre">ik_pybullet_mat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">eef_link_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mat_target_pose_in_world</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_iter</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">100</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">threshold</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1e-08</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">show_name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.ik_pybullet_mat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.ik_pybullet_xyzquat">
+<span class="sig-name descname"><span class="pre">ik_pybullet_xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">eef_link_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">xyzquat_target_pose_in_world</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_iter</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">100</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">threshold</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1e-08</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">show_name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.ik_pybullet_xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.move_joint">
+<span class="sig-name descname"><span class="pre">move_joint</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joint_name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">joint_position</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tolerance</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.0001</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">position_gain</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.05</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.move_joint" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.move_joint_velocity_torque">
+<span class="sig-name descname"><span class="pre">move_joint_velocity_torque</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joint_name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">joint_velocity</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">velocity_gain</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_force</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">50000</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.move_joint_velocity_torque" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.movej">
+<span class="sig-name descname"><span class="pre">movej</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joints_grp_names</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">joints_values</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tolerance</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.0001</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">position_gain</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.05</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.movej" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.movej_velocity">
+<span class="sig-name descname"><span class="pre">movej_velocity</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joint_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">vel</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">velocity_gain</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.2</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_force</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">5000</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.movej_velocity" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.movej_velocity_torque">
+<span class="sig-name descname"><span class="pre">movej_velocity_torque</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joints_grp_names</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">joints_velocities</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">velocity_gain</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.2</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_force</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">5000</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.movej_velocity_torque" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.report_pin_model">
+<span class="sig-name descname"><span class="pre">report_pin_model</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.report_pin_model" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.report_pybullet_model">
+<span class="sig-name descname"><span class="pre">report_pybullet_model</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.report_pybullet_model" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.reset_robot">
+<span class="sig-name descname"><span class="pre">reset_robot</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.reset_robot" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.spawn_robot">
+<span class="sig-name descname"><span class="pre">spawn_robot</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.spawn_robot" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.update_link_frame_axis">
+<span class="sig-name descname"><span class="pre">update_link_frame_axis</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">link_name</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.update_link_frame_axis" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.update_vr_frame_axis">
+<span class="sig-name descname"><span class="pre">update_vr_frame_axis</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">link_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">quat_vr_eef_in_robot</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.robot_base.RobotBase.update_vr_frame_axis" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-autolife_robot_sdk.sim_pybullet.sim_api">
+<span id="autolife-robot-sdk-sim-pybullet-sim-api-module"></span><h2>autolife_robot_sdk.sim_pybullet.sim_api module<a class="headerlink" href="#module-autolife_robot_sdk.sim_pybullet.sim_api" title="Link to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_api.SimAPI">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.sim_pybullet.sim_api.</span></span><span class="sig-name descname"><span class="pre">SimAPI</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">standalone</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_api.SimAPI" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="autolife_robot_sdk.interface.html#autolife_robot_sdk.interface.api.AbstractAPI" title="autolife_robot_sdk.interface.api.AbstractAPI"><code class="xref py py-class docutils literal notranslate"><span class="pre">AbstractAPI</span></code></a></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.close">
+<span class="sig-name descname"><span class="pre">close</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">modules_to_deactivate</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.close" title="Link to this definition"></a></dt>
+<dd><p>Close and deactivate the modules</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>modules_to_deactivate (list[str]): List of modules to be deactivated</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.get_battery_data">
+<span class="sig-name descname"><span class="pre">get_battery_data</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.get_battery_data" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.get_camera_image">
+<span class="sig-name descname"><span class="pre">get_camera_image</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">camera_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">copy</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.get_camera_image" title="Link to this definition"></a></dt>
+<dd><p>Get the latest frame from the specified camera</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>camera_name (str): The name of the camera
+copy (bool, optional): Return a copy of the frame. Defaults to False.</p>
+</dd>
+<dt>Returns:</dt><dd><p>np.ndarray: The latest frame of the specified camera</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.get_front_lidar_data">
+<span class="sig-name descname"><span class="pre">get_front_lidar_data</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.get_front_lidar_data" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.get_imu_data">
+<span class="sig-name descname"><span class="pre">get_imu_data</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.get_imu_data" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.get_joint_control_mode">
+<span class="sig-name descname"><span class="pre">get_joint_control_mode</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joint_name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="autolife_robot_sdk.interface.html#autolife_robot_sdk.interface.motor.ControlMode" title="autolife_robot_sdk.interface.motor.ControlMode"><span class="pre">ControlMode</span></a></span></span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.get_joint_control_mode" title="Link to this definition"></a></dt>
+<dd><p>Get the control mode of the joint</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.get_joint_position">
+<span class="sig-name descname"><span class="pre">get_joint_position</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joint_name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.get_joint_position" title="Link to this definition"></a></dt>
+<dd><p>Get the current position of the joint in degrees</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.get_joint_speed">
+<span class="sig-name descname"><span class="pre">get_joint_speed</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joint_name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.get_joint_speed" title="Link to this definition"></a></dt>
+<dd><p>Get the current speed of the joint in degrees/second</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.get_joint_status">
+<span class="sig-name descname"><span class="pre">get_joint_status</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joint_name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.get_joint_status" title="Link to this definition"></a></dt>
+<dd><p>Get the current status of the joint</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.get_joint_temperature">
+<span class="sig-name descname"><span class="pre">get_joint_temperature</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joint_name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.get_joint_temperature" title="Link to this definition"></a></dt>
+<dd><p>Get the current temperature of the joint in degrees Celsius</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.get_joint_torque_current">
+<span class="sig-name descname"><span class="pre">get_joint_torque_current</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joint_name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.get_joint_torque_current" title="Link to this definition"></a></dt>
+<dd><p>Get the torque current of the joint</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.get_joints_position">
+<span class="sig-name descname"><span class="pre">get_joints_position</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joints_grp_names</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.get_joints_position" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.get_joints_speed">
+<span class="sig-name descname"><span class="pre">get_joints_speed</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joints_grp_names</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.get_joints_speed" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.get_microphone_audio_data">
+<span class="sig-name descname"><span class="pre">get_microphone_audio_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="autolife_robot_sdk.utils.html#autolife_robot_sdk.utils.audio_data.AudioData" title="autolife_robot_sdk.utils.audio_data.AudioData"><span class="pre">AudioData</span></a></span></span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.get_microphone_audio_data" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.get_microphone_opus_data">
+<span class="sig-name descname"><span class="pre">get_microphone_opus_data</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.get_microphone_opus_data" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.get_microphone_pcm_data">
+<span class="sig-name descname"><span class="pre">get_microphone_pcm_data</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.get_microphone_pcm_data" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.get_rear_lidar_data">
+<span class="sig-name descname"><span class="pre">get_rear_lidar_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.get_rear_lidar_data" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.get_speaker_volume">
+<span class="sig-name descname"><span class="pre">get_speaker_volume</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.get_speaker_volume" title="Link to this definition"></a></dt>
+<dd><p>Get the current volume of the speaker.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.get_wifi_mac_address">
+<span class="sig-name descname"><span class="pre">get_wifi_mac_address</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">interface</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'wlan0'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.get_wifi_mac_address" title="Link to this definition"></a></dt>
+<dd><p>Get the MAC address of the specified network interface.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.get_wifi_signal_strength">
+<span class="sig-name descname"><span class="pre">get_wifi_signal_strength</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.get_wifi_signal_strength" title="Link to this definition"></a></dt>
+<dd><p>Get the current signal strength of the Wi-Fi connection.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.initialize">
+<span class="sig-name descname"><span class="pre">initialize</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">modules_to_activate</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.initialize" title="Link to this definition"></a></dt>
+<dd><p>Initialize and activate the modules</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>modules_to_activate (list[str]): List of modules to be activated</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.joint_change_control_mode">
+<span class="sig-name descname"><span class="pre">joint_change_control_mode</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joint_name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">control_mode</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="autolife_robot_sdk.interface.html#autolife_robot_sdk.interface.motor.ControlMode" title="autolife_robot_sdk.interface.motor.ControlMode"><span class="pre">ControlMode</span></a></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.joint_change_control_mode" title="Link to this definition"></a></dt>
+<dd><p>Change the control mode of the joint</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.joint_clear_error">
+<span class="sig-name descname"><span class="pre">joint_clear_error</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joint_name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.joint_clear_error" title="Link to this definition"></a></dt>
+<dd><p>Clear any error state for the joint</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.joint_disable">
+<span class="sig-name descname"><span class="pre">joint_disable</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joint_name</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.joint_disable" title="Link to this definition"></a></dt>
+<dd><p>Disable the joint with the given name</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.joint_enable">
+<span class="sig-name descname"><span class="pre">joint_enable</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joint_name</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.joint_enable" title="Link to this definition"></a></dt>
+<dd><p>Enable the joint with the given name</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.joint_position_control">
+<span class="sig-name descname"><span class="pre">joint_position_control</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joint_name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">position</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.joint_position_control" title="Link to this definition"></a></dt>
+<dd><p>Control the position of the joint in degrees</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.joint_speed_control">
+<span class="sig-name descname"><span class="pre">joint_speed_control</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joint_name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">speed</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.joint_speed_control" title="Link to this definition"></a></dt>
+<dd><p>Control the speed of the joint in degrees/second</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.joint_torque_current_control">
+<span class="sig-name descname"><span class="pre">joint_torque_current_control</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">joint_name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">torque_current</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.joint_torque_current_control" title="Link to this definition"></a></dt>
+<dd><p>“Control the torque current of the joint</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.speaker_play_audio_data">
+<span class="sig-name descname"><span class="pre">speaker_play_audio_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">audio_data</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.speaker_play_audio_data" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.speaker_play_opus_data">
+<span class="sig-name descname"><span class="pre">speaker_play_opus_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">opus_data</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bytes</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.speaker_play_opus_data" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.speaker_play_pcm_data">
+<span class="sig-name descname"><span class="pre">speaker_play_pcm_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">audio_data</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sample_rate</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">channels</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sample_width</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.speaker_play_pcm_data" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.speaker_set_volume">
+<span class="sig-name descname"><span class="pre">speaker_set_volume</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">volume</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.speaker_set_volume" title="Link to this definition"></a></dt>
+<dd><p>Set the volume of the speaker.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.step">
+<span class="sig-name descname"><span class="pre">step</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_api.SimAPI.step" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-autolife_robot_sdk.sim_pybullet.sim_client">
+<span id="autolife-robot-sdk-sim-pybullet-sim-client-module"></span><h2>autolife_robot_sdk.sim_pybullet.sim_client module<a class="headerlink" href="#module-autolife_robot_sdk.sim_pybullet.sim_client" title="Link to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.sim_pybullet.sim_client.</span></span><span class="sig-name descname"><span class="pre">SimClient</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">process_key</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">12345</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py property">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.client_id">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">client_id</span></span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.client_id" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.create_body">
+<span class="sig-name descname"><span class="pre">create_body</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">urdf_file</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">base_pos</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">[0,</span> <span class="pre">0,</span> <span class="pre">0]</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">base_ori</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">[0,</span> <span class="pre">0,</span> <span class="pre">0,</span> <span class="pre">1]</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.create_body" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.create_body_pbp">
+<span class="sig-name descname"><span class="pre">create_body_pbp</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">filepath</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fixed_base</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">scale</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1.0</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.create_body_pbp" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.create_nocollision_body_pbp">
+<span class="sig-name descname"><span class="pre">create_nocollision_body_pbp</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">filepath</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fixed_base</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">scale</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1.0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">basePosition</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">[0,</span> <span class="pre">0,</span> <span class="pre">0]</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.create_nocollision_body_pbp" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.draw_custom_xyz_axes">
+<span class="sig-name descname"><span class="pre">draw_custom_xyz_axes</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">body_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">link_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">quat_custom_in_robot</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">xyz_axes_ids_to_replace</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.draw_custom_xyz_axes" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.draw_link_xyz_axes">
+<span class="sig-name descname"><span class="pre">draw_link_xyz_axes</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">body_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">link_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">xyz_axes_ids_to_replace</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.draw_link_xyz_axes" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.dump_body">
+<span class="sig-name descname"><span class="pre">dump_body</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">body_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.dump_body" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.erase_all_xyz_axes">
+<span class="sig-name descname"><span class="pre">erase_all_xyz_axes</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.erase_all_xyz_axes" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.erase_xyz_axes">
+<span class="sig-name descname"><span class="pre">erase_xyz_axes</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">xyz_axes_ids</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.erase_xyz_axes" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.get_all_joints_info">
+<span class="sig-name descname"><span class="pre">get_all_joints_info</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">body_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.get_all_joints_info" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.get_all_joints_state">
+<span class="sig-name descname"><span class="pre">get_all_joints_state</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">body_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.get_all_joints_state" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.get_all_links">
+<span class="sig-name descname"><span class="pre">get_all_links</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">body_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.get_all_links" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.get_all_links_name">
+<span class="sig-name descname"><span class="pre">get_all_links_name</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">body_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.get_all_links_name" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.get_all_links_state">
+<span class="sig-name descname"><span class="pre">get_all_links_state</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">body_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.get_all_links_state" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.get_all_movable_joints">
+<span class="sig-name descname"><span class="pre">get_all_movable_joints</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">body_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.get_all_movable_joints" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.get_all_movable_joints_name">
+<span class="sig-name descname"><span class="pre">get_all_movable_joints_name</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">body_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.get_all_movable_joints_name" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.get_all_movable_joints_position">
+<span class="sig-name descname"><span class="pre">get_all_movable_joints_position</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">body_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.get_all_movable_joints_position" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.get_all_movable_joints_state">
+<span class="sig-name descname"><span class="pre">get_all_movable_joints_state</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">body_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.get_all_movable_joints_state" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.get_all_movable_joints_velocity">
+<span class="sig-name descname"><span class="pre">get_all_movable_joints_velocity</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">body_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.get_all_movable_joints_velocity" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.get_all_movable_links">
+<span class="sig-name descname"><span class="pre">get_all_movable_links</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">body_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.get_all_movable_links" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.get_all_movable_links_name">
+<span class="sig-name descname"><span class="pre">get_all_movable_links_name</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">body_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.get_all_movable_links_name" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.get_all_movable_links_state">
+<span class="sig-name descname"><span class="pre">get_all_movable_links_state</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">body_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.get_all_movable_links_state" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.get_camera_image">
+<span class="sig-name descname"><span class="pre">get_camera_image</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">eye_pos</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">target_pos</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">up</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">screen_width</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">screen_height</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fov</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">aspect</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">near</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">far</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.get_camera_image" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.get_joint_id_by_name">
+<span class="sig-name descname"><span class="pre">get_joint_id_by_name</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">body_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">joint_name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.get_joint_id_by_name" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.get_joint_state">
+<span class="sig-name descname"><span class="pre">get_joint_state</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">body_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">joint_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.get_joint_state" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.get_joints_state">
+<span class="sig-name descname"><span class="pre">get_joints_state</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">body_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">joints_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.get_joints_state" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.get_link_id_by_name">
+<span class="sig-name descname"><span class="pre">get_link_id_by_name</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">body_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">link_name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.get_link_id_by_name" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.get_link_pose">
+<span class="sig-name descname"><span class="pre">get_link_pose</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">body_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">link_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.get_link_pose" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.hide_ui_widgets">
+<span class="sig-name descname"><span class="pre">hide_ui_widgets</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.hide_ui_widgets" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.ik_solver">
+<span class="sig-name descname"><span class="pre">ik_solver</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">body_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">eef_link_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">target_pos</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">target_quat</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_iter</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">100</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">threshold</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1e-08</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.ik_solver" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.move_joints">
+<span class="sig-name descname"><span class="pre">move_joints</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">body_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">joints_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">positions</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tolerance</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.0001</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">position_gain</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.05</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.move_joints" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.move_joints_velocity_torque">
+<span class="sig-name descname"><span class="pre">move_joints_velocity_torque</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">body_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">joints_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">velocities</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">velocity_gain</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.02</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_force</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.move_joints_velocity_torque" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.process_key">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">process_key</span></span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.process_key" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.register_client_connected_cb">
+<span class="sig-name descname"><span class="pre">register_client_connected_cb</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">cb</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.register_client_connected_cb" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.remove_body">
+<span class="sig-name descname"><span class="pre">remove_body</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">body_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.remove_body" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.remove_body_pbp">
+<span class="sig-name descname"><span class="pre">remove_body_pbp</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">body_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.remove_body_pbp" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.reset_simulation">
+<span class="sig-name descname"><span class="pre">reset_simulation</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.reset_simulation" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.set_enable_rendering">
+<span class="sig-name descname"><span class="pre">set_enable_rendering</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">enable</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.set_enable_rendering" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.set_gravity">
+<span class="sig-name descname"><span class="pre">set_gravity</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">gravity</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.set_gravity" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.setup_mimic_joint">
+<span class="sig-name descname"><span class="pre">setup_mimic_joint</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">body_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mimic_joint_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">main_joint_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">multiplier</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.setup_mimic_joint" title="Link to this definition"></a></dt>
+<dd><p>Setup a mimic joint constraint in PyBullet</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>body_id: ID of the robot
+mimic_joint_id: Joint that will mimic the master
+master_joint_id: Joint to be mimicked
+multiplier: Position multiplier for the mimic joint
+offset: Position offset for the mimic joint</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.show_ui_widgets">
+<span class="sig-name descname"><span class="pre">show_ui_widgets</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.show_ui_widgets" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.start">
+<span class="sig-name descname"><span class="pre">start</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">block_until_client_connected</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">standalone</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">reset</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.start" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.step_simulation">
+<span class="sig-name descname"><span class="pre">step_simulation</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.step_simulation" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_client.SimClient.stop">
+<span class="sig-name descname"><span class="pre">stop</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_client.SimClient.stop" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-autolife_robot_sdk.sim_pybullet.sim_server">
+<span id="autolife-robot-sdk-sim-pybullet-sim-server-module"></span><h2>autolife_robot_sdk.sim_pybullet.sim_server module<a class="headerlink" href="#module-autolife_robot_sdk.sim_pybullet.sim_server" title="Link to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_server.SimServer">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.sim_pybullet.sim_server.</span></span><span class="sig-name descname"><span class="pre">SimServer</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">process_key</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">12345</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_server.SimServer" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py property">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_server.SimServer.process_key">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">process_key</span></span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_server.SimServer.process_key" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_server.SimServer.start">
+<span class="sig-name descname"><span class="pre">start</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">block_until_server_started</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_server.SimServer.start" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.sim_pybullet.sim_server.SimServer.stop">
+<span class="sig-name descname"><span class="pre">stop</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.sim_pybullet.sim_server.SimServer.stop" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-autolife_robot_sdk.sim_pybullet">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-autolife_robot_sdk.sim_pybullet" title="Link to this heading"></a></h2>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="autolife_robot_sdk.interface.html" class="btn btn-neutral float-left" title="autolife_robot_sdk.interface package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="autolife_robot_sdk.utils.html" class="btn btn-neutral float-right" title="autolife_robot_sdk.utils package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, AutolifeRobotics.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>  
+
+  <style>
+         .wy-nav-content { max-width: none; }
+  </style>
+
+
+
+</body>
+</html>

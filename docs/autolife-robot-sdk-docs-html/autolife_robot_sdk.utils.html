@@ -1,0 +1,1190 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>autolife_robot_sdk.utils package &mdash; AutolifeRobotSDK 1.0.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=8d563738"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="autolife_robot_sdk.viewer_meshcat package" href="autolife_robot_sdk.viewer_meshcat.html" />
+    <link rel="prev" title="autolife_robot_sdk.sim_pybullet package" href="autolife_robot_sdk.sim_pybullet.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            AutolifeRobotSDK
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">autolife_robot_sdk</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="autolife_robot_sdk.html">autolife_robot_sdk package</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="autolife_robot_sdk.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="autolife_robot_sdk.dummy.html">autolife_robot_sdk.dummy package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="autolife_robot_sdk.hardware.html">autolife_robot_sdk.hardware package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="autolife_robot_sdk.interface.html">autolife_robot_sdk.interface package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="autolife_robot_sdk.sim_pybullet.html">autolife_robot_sdk.sim_pybullet package</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">autolife_robot_sdk.utils package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="autolife_robot_sdk.viewer_meshcat.html">autolife_robot_sdk.viewer_meshcat package</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="autolife_robot_sdk.html#module-autolife_robot_sdk">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">AutolifeRobotSDK</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="modules.html">autolife_robot_sdk</a></li>
+          <li class="breadcrumb-item"><a href="autolife_robot_sdk.html">autolife_robot_sdk package</a></li>
+      <li class="breadcrumb-item active">autolife_robot_sdk.utils package</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/autolife_robot_sdk.utils.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="autolife-robot-sdk-utils-package">
+<h1>autolife_robot_sdk.utils package<a class="headerlink" href="#autolife-robot-sdk-utils-package" title="Link to this heading"></a></h1>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Link to this heading"></a></h2>
+</section>
+<section id="module-autolife_robot_sdk.utils.audio_data">
+<span id="autolife-robot-sdk-utils-audio-data-module"></span><h2>autolife_robot_sdk.utils.audio_data module<a class="headerlink" href="#module-autolife_robot_sdk.utils.audio_data" title="Link to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.audio_data.AudioData">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.audio_data.</span></span><span class="sig-name descname"><span class="pre">AudioData</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">frame_data</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sample_channels</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sample_rate</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sample_width</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.audio_data.AudioData" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Creates a new <code class="docutils literal notranslate"><span class="pre">AudioData</span></code> instance, which represents mono audio data.</p>
+<p>The raw audio data is specified by <code class="docutils literal notranslate"><span class="pre">frame_data</span></code>, which is a sequence of bytes representing audio samples. This is the frame data structure used by the PCM WAV format.</p>
+<p>The channel of each sample, in bytes, is specified by <code class="docutils literal notranslate"><span class="pre">sample_channels</span></code>. Each group of <code class="docutils literal notranslate"><span class="pre">sample_channels</span></code> bytes represents a single audio sample.</p>
+<p>The width of each sample, in bytes, is specified by <code class="docutils literal notranslate"><span class="pre">sample_width</span></code>. Each group of <code class="docutils literal notranslate"><span class="pre">sample_width</span></code> bytes represents a single audio sample.</p>
+<p>The audio data is assumed to have a sample rate of <code class="docutils literal notranslate"><span class="pre">sample_rate</span></code> samples per second (Hertz).</p>
+<p>Usually, instances of this class are obtained from <code class="docutils literal notranslate"><span class="pre">recognizer_instance.record</span></code> or <code class="docutils literal notranslate"><span class="pre">recognizer_instance.listen</span></code>, or in the callback for <code class="docutils literal notranslate"><span class="pre">recognizer_instance.listen_in_background</span></code>, rather than instantiating them directly.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.audio_data.AudioData.get_raw_data">
+<span class="sig-name descname"><span class="pre">get_raw_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">convert_channels</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">convert_rate</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">convert_width</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.audio_data.AudioData.get_raw_data" title="Link to this definition"></a></dt>
+<dd><p>Returns a byte string representing the raw frame data for the audio represented by the <code class="docutils literal notranslate"><span class="pre">AudioData</span></code> instance.</p>
+<p>If <code class="docutils literal notranslate"><span class="pre">convert_rate</span></code> is specified and the audio sample rate is not <code class="docutils literal notranslate"><span class="pre">convert_rate</span></code> Hz, the resulting audio is resampled to match.</p>
+<p>If <code class="docutils literal notranslate"><span class="pre">convert_width</span></code> is specified and the audio samples are not <code class="docutils literal notranslate"><span class="pre">convert_width</span></code> bytes each, the resulting audio is converted to match.</p>
+<p>Writing these bytes directly to a file results in a valid <a class="reference external" href="https://en.wikipedia.org/wiki/Raw_audio_format">RAW/PCM audio file</a>.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.audio_data.AudioData.get_wav_data">
+<span class="sig-name descname"><span class="pre">get_wav_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">convert_channels</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">convert_rate</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">convert_width</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.audio_data.AudioData.get_wav_data" title="Link to this definition"></a></dt>
+<dd><p>Returns a byte string representing the contents of a WAV file containing the audio represented by the <code class="docutils literal notranslate"><span class="pre">AudioData</span></code> instance.</p>
+<p>If <code class="docutils literal notranslate"><span class="pre">convert_width</span></code> is specified and the audio samples are not <code class="docutils literal notranslate"><span class="pre">convert_width</span></code> bytes each, the resulting audio is converted to match.</p>
+<p>If <code class="docutils literal notranslate"><span class="pre">convert_rate</span></code> is specified and the audio sample rate is not <code class="docutils literal notranslate"><span class="pre">convert_rate</span></code> Hz, the resulting audio is resampled to match.</p>
+<p>If <code class="docutils literal notranslate"><span class="pre">convert_channels</span></code> is specified and the audio samples are not <code class="docutils literal notranslate"><span class="pre">convert_channels</span></code> bytes each, the resulting audio is converted to match.</p>
+<p>Writing these bytes directly to a file results in a valid <a class="reference external" href="https://en.wikipedia.org/wiki/WAV">WAV file</a>.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.audio_data.AudioData.save_to_wav_file">
+<span class="sig-name descname"><span class="pre">save_to_wav_file</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">file_path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">convert_channels</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">convert_rate</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">24000</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">convert_width</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">2</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.audio_data.AudioData.save_to_wav_file" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-autolife_robot_sdk.utils.audio_ring_buffer">
+<span id="autolife-robot-sdk-utils-audio-ring-buffer-module"></span><h2>autolife_robot_sdk.utils.audio_ring_buffer module<a class="headerlink" href="#module-autolife_robot_sdk.utils.audio_ring_buffer" title="Link to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.audio_ring_buffer.OPUSAudioRingBuffer">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.audio_ring_buffer.</span></span><span class="sig-name descname"><span class="pre">OPUSAudioRingBuffer</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">label</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Opus</span> <span class="pre">Buffer'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_packets</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">100</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.audio_ring_buffer.OPUSAudioRingBuffer" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>A buffer for managing Opus encoded audio packets</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.audio_ring_buffer.OPUSAudioRingBuffer.append">
+<span class="sig-name descname"><span class="pre">append</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">packet</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bytes</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.audio_ring_buffer.OPUSAudioRingBuffer.append" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.audio_ring_buffer.OPUSAudioRingBuffer.get_all_packets">
+<span class="sig-name descname"><span class="pre">get_all_packets</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span></span></span><a class="headerlink" href="#autolife_robot_sdk.utils.audio_ring_buffer.OPUSAudioRingBuffer.get_all_packets" title="Link to this definition"></a></dt>
+<dd><p>Get all packets as a list (and clear the buffer)</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.audio_ring_buffer.OPUSAudioRingBuffer.get_next_packet">
+<span class="sig-name descname"><span class="pre">get_next_packet</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bytes</span></span></span><a class="headerlink" href="#autolife_robot_sdk.utils.audio_ring_buffer.OPUSAudioRingBuffer.get_next_packet" title="Link to this definition"></a></dt>
+<dd><p>Get the oldest packet from the buffer</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.audio_ring_buffer.OPUSAudioRingBuffer.get_stats">
+<span class="sig-name descname"><span class="pre">get_stats</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.audio_ring_buffer.OPUSAudioRingBuffer.get_stats" title="Link to this definition"></a></dt>
+<dd><p>Get buffer statistics</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.audio_ring_buffer.OPUSAudioRingBuffer.peek_packet">
+<span class="sig-name descname"><span class="pre">peek_packet</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">index</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bytes</span></span></span><a class="headerlink" href="#autolife_robot_sdk.utils.audio_ring_buffer.OPUSAudioRingBuffer.peek_packet" title="Link to this definition"></a></dt>
+<dd><p>Look at a packet without removing it</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.audio_ring_buffer.OPUSAudioRingBuffer.reset">
+<span class="sig-name descname"><span class="pre">reset</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.audio_ring_buffer.OPUSAudioRingBuffer.reset" title="Link to this definition"></a></dt>
+<dd><p>Clear all packets from the buffer</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.audio_ring_buffer.PCMAudioRingBuffer">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.audio_ring_buffer.</span></span><span class="sig-name descname"><span class="pre">PCMAudioRingBuffer</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">label</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">periodsize</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sample_rate</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sample_channels</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sample_width</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">multiplier</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.audio_ring_buffer.PCMAudioRingBuffer" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">BytesIO</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.audio_ring_buffer.PCMAudioRingBuffer.adjust_for_ambient_noise">
+<span class="sig-name descname"><span class="pre">adjust_for_ambient_noise</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">duration</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.audio_ring_buffer.PCMAudioRingBuffer.adjust_for_ambient_noise" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.audio_ring_buffer.PCMAudioRingBuffer.append">
+<span class="sig-name descname"><span class="pre">append</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.audio_ring_buffer.PCMAudioRingBuffer.append" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.audio_ring_buffer.PCMAudioRingBuffer.calculate_energy">
+<span class="sig-name descname"><span class="pre">calculate_energy</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data_bytes</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.audio_ring_buffer.PCMAudioRingBuffer.calculate_energy" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.audio_ring_buffer.PCMAudioRingBuffer.int2float">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">int2float</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">sound</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.audio_ring_buffer.PCMAudioRingBuffer.int2float" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.audio_ring_buffer.PCMAudioRingBuffer.listen">
+<span class="sig-name descname"><span class="pre">listen</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">timeout</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">phrase_time_limit</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">stream</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.audio_ring_buffer.PCMAudioRingBuffer.listen" title="Link to this definition"></a></dt>
+<dd><p>Records a single phrase from <code class="docutils literal notranslate"><span class="pre">buffer</span></code> into an <code class="docutils literal notranslate"><span class="pre">AudioData</span></code> instance, which it returns.</p>
+<p>If the <code class="docutils literal notranslate"><span class="pre">stream</span></code> keyword argument is <code class="docutils literal notranslate"><span class="pre">True</span></code>, the <code class="docutils literal notranslate"><span class="pre">listen()</span></code> method will yield <code class="docutils literal notranslate"><span class="pre">AudioData</span></code> instances representing chunks of audio data as they are detected. The first yielded <code class="docutils literal notranslate"><span class="pre">AudioData</span></code> instance represents the first buffer of the phrase, and the last yielded <code class="docutils literal notranslate"><span class="pre">AudioData</span></code> instance represents the last buffer of the phrase. If <code class="docutils literal notranslate"><span class="pre">stream</span></code> is <code class="docutils literal notranslate"><span class="pre">False</span></code>, the method will return a single <code class="docutils literal notranslate"><span class="pre">AudioData</span></code> instance representing the entire phrase.</p>
+<p>This is done by waiting until the audio has an energy above <code class="docutils literal notranslate"><span class="pre">recognizer_instance.energy_threshold</span></code> (the user has started speaking), and then recording until it encounters <code class="docutils literal notranslate"><span class="pre">recognizer_instance.pause_threshold</span></code> seconds of non-speaking or there is no more audio input. The ending silence is not included.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">timeout</span></code> parameter is the maximum number of seconds that this will wait for a phrase to start before giving up and throwing an <code class="docutils literal notranslate"><span class="pre">speech_recognition.WaitTimeoutError</span></code> exception. If <code class="docutils literal notranslate"><span class="pre">timeout</span></code> is <code class="docutils literal notranslate"><span class="pre">None</span></code>, there will be no wait timeout.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">phrase_time_limit</span></code> parameter is the maximum number of seconds that this will allow a phrase to continue before stopping and returning the part of the phrase processed before the time limit was reached. The resulting audio will be the phrase cut off at the time limit. If <code class="docutils literal notranslate"><span class="pre">phrase_timeout</span></code> is <code class="docutils literal notranslate"><span class="pre">None</span></code>, there will be no phrase time limit.</p>
+<p>This operation will always complete within <code class="docutils literal notranslate"><span class="pre">timeout</span> <span class="pre">+</span> <span class="pre">phrase_timeout</span></code> seconds if both are numbers, either by returning the audio data, or by raising a <code class="docutils literal notranslate"><span class="pre">speech_recognition.WaitTimeoutError</span></code> exception.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.audio_ring_buffer.PCMAudioRingBuffer.read_all">
+<span class="sig-name descname"><span class="pre">read_all</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">return_audio_data</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bytes</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference internal" href="#autolife_robot_sdk.utils.audio_data.AudioData" title="autolife_robot_sdk.utils.audio_data.AudioData"><span class="pre">AudioData</span></a></span></span><a class="headerlink" href="#autolife_robot_sdk.utils.audio_ring_buffer.PCMAudioRingBuffer.read_all" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.audio_ring_buffer.PCMAudioRingBuffer.read_chunk">
+<span class="sig-name descname"><span class="pre">read_chunk</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">chunk_size</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">return_audio_data</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.audio_ring_buffer.PCMAudioRingBuffer.read_chunk" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.audio_ring_buffer.PCMAudioRingBuffer.reset">
+<span class="sig-name descname"><span class="pre">reset</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.audio_ring_buffer.PCMAudioRingBuffer.reset" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-autolife_robot_sdk.utils.class_factory">
+<span id="autolife-robot-sdk-utils-class-factory-module"></span><h2>autolife_robot_sdk.utils.class_factory module<a class="headerlink" href="#module-autolife_robot_sdk.utils.class_factory" title="Link to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.class_factory.Singleton">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.class_factory.</span></span><span class="sig-name descname"><span class="pre">Singleton</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bases</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">attrs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.class_factory.Singleton" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">type</span></code></p>
+<p>Singleton meta class</p>
+<p>A metaclass that ensures only one instance of a class exists.
+Thread-safe implementation with proper lock handling.</p>
+<dl>
+<dt>Example:</dt><dd><dl class="simple">
+<dt>class Foo(object, metaclass=Singleton):</dt><dd><p>pass</p>
+</dd>
+</dl>
+<p>foo1 = Foo()  # Creates a new instance
+foo2 = Foo()  # Returns the same instance (foo1 is foo2)</p>
+</dd>
+</dl>
+<dl class="field-list simple">
+</dl>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.class_factory.SingletonABCMeta">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.class_factory.</span></span><span class="sig-name descname"><span class="pre">SingletonABCMeta</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bases</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">attrs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.class_factory.SingletonABCMeta" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">ABCMeta</span></code></p>
+<p>A metaclass that combines singleton behavior with abstract base class functionality</p>
+</dd></dl>
+
+</section>
+<section id="module-autolife_robot_sdk.utils.constants">
+<span id="autolife-robot-sdk-utils-constants-module"></span><h2>autolife_robot_sdk.utils.constants module<a class="headerlink" href="#module-autolife_robot_sdk.utils.constants" title="Link to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.constants.AngularUnit">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.constants.</span></span><span class="sig-name descname"><span class="pre">AngularUnit</span></span><a class="headerlink" href="#autolife_robot_sdk.utils.constants.AngularUnit" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.constants.AngularUnit.DEG">
+<span class="sig-name descname"><span class="pre">DEG</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'DEG'</span></em><a class="headerlink" href="#autolife_robot_sdk.utils.constants.AngularUnit.DEG" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.constants.AngularUnit.RAD">
+<span class="sig-name descname"><span class="pre">RAD</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'RAD'</span></em><a class="headerlink" href="#autolife_robot_sdk.utils.constants.AngularUnit.RAD" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.constants.LengthUnit">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.constants.</span></span><span class="sig-name descname"><span class="pre">LengthUnit</span></span><a class="headerlink" href="#autolife_robot_sdk.utils.constants.LengthUnit" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.constants.LengthUnit.CM">
+<span class="sig-name descname"><span class="pre">CM</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'CM'</span></em><a class="headerlink" href="#autolife_robot_sdk.utils.constants.LengthUnit.CM" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.constants.LengthUnit.M">
+<span class="sig-name descname"><span class="pre">M</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'M'</span></em><a class="headerlink" href="#autolife_robot_sdk.utils.constants.LengthUnit.M" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.constants.LengthUnit.MM">
+<span class="sig-name descname"><span class="pre">MM</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'MM'</span></em><a class="headerlink" href="#autolife_robot_sdk.utils.constants.LengthUnit.MM" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-autolife_robot_sdk.utils.kdl_ik_solver">
+<span id="autolife-robot-sdk-utils-kdl-ik-solver-module"></span><h2>autolife_robot_sdk.utils.kdl_ik_solver module<a class="headerlink" href="#module-autolife_robot_sdk.utils.kdl_ik_solver" title="Link to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.kdl_ik_solver.KdlSolver">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.kdl_ik_solver.</span></span><span class="sig-name descname"><span class="pre">KdlSolver</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">urdf_file_path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">base_links</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ee_links</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.kdl_ik_solver.KdlSolver" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.kdl_ik_solver.KdlSolver.fk">
+<span class="sig-name descname"><span class="pre">fk</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">base_links</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ee_links</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">joint_angles</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.kdl_ik_solver.KdlSolver.fk" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.kdl_ik_solver.KdlSolver.fk_single_chain">
+<span class="sig-name descname"><span class="pre">fk_single_chain</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">fk_p_kdl</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">joint_angles</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">num_jnts</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.kdl_ik_solver.KdlSolver.fk_single_chain" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.kdl_ik_solver.KdlSolver.ik">
+<span class="sig-name descname"><span class="pre">ik</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">base_links</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ee_links</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">desired_pose</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">initial_joint_angles</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ik_vel_solver_type</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Literal</span><span class="p"><span class="pre">[</span></span><span class="s"><span class="pre">'pinv'</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">'pinv_givens'</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">'pinv_nso'</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">'wdls'</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'pinv'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">kwargs_ik_vel</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">dict</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">{}</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ik_pos_solver_type</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Literal</span><span class="p"><span class="pre">[</span></span><span class="s"><span class="pre">'nr'</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">'lma'</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">'nr_jl'</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'lma'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">kwargs_ik_pos</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">dict</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">{}</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.kdl_ik_solver.KdlSolver.ik" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.kdl_ik_solver.KdlSolver.numpy_to_jntarray">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">numpy_to_jntarray</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">np_array</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.kdl_ik_solver.KdlSolver.numpy_to_jntarray" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.kdl_ik_solver.KdlSolver.report">
+<span class="sig-name descname"><span class="pre">report</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">base</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ee</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.kdl_ik_solver.KdlSolver.report" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-autolife_robot_sdk.utils.misc">
+<span id="autolife-robot-sdk-utils-misc-module"></span><h2>autolife_robot_sdk.utils.misc module<a class="headerlink" href="#module-autolife_robot_sdk.utils.misc" title="Link to this heading"></a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.misc.convert_mesh_paths_to_absolute_urdf">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.misc.</span></span><span class="sig-name descname"><span class="pre">convert_mesh_paths_to_absolute_urdf</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">urdf_file_path</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.misc.convert_mesh_paths_to_absolute_urdf" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.misc.get_mac_from_ip">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.misc.</span></span><span class="sig-name descname"><span class="pre">get_mac_from_ip</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ip_address</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.misc.get_mac_from_ip" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.misc.get_wifi_mac_address">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.misc.</span></span><span class="sig-name descname"><span class="pre">get_wifi_mac_address</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">interface</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'wlan0'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.misc.get_wifi_mac_address" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.misc.get_wifi_signal_strength">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.misc.</span></span><span class="sig-name descname"><span class="pre">get_wifi_signal_strength</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.misc.get_wifi_signal_strength" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.misc.parse_vr_command">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.misc.</span></span><span class="sig-name descname"><span class="pre">parse_vr_command</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">command_json</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.misc.parse_vr_command" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</section>
+<section id="module-autolife_robot_sdk.utils.mp_ik_solver">
+<span id="autolife-robot-sdk-utils-mp-ik-solver-module"></span><h2>autolife_robot_sdk.utils.mp_ik_solver module<a class="headerlink" href="#module-autolife_robot_sdk.utils.mp_ik_solver" title="Link to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.mp_ik_solver.BaseIKSolverProcess">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.mp_ik_solver.</span></span><span class="sig-name descname"><span class="pre">BaseIKSolverProcess</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ik_solver_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">robot_urdf_path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">control_event</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">communication_queue</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.mp_ik_solver.BaseIKSolverProcess" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.mp_ik_solver.BaseIKSolverProcess.begin_solve">
+<span class="sig-name descname"><span class="pre">begin_solve</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">target_pose</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">tuple</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">q0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">tuple</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">q_lower</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">tuple</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">q_upper</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">tuple</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">base</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ee</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">time_stamp</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.mp_ik_solver.BaseIKSolverProcess.begin_solve" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.mp_ik_solver.BaseIKSolverProcess.calculate_result_metrics">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">calculate_result_metrics</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">kdl_solver</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#autolife_robot_sdk.utils.kdl_ik_solver.KdlSolver" title="autolife_robot_sdk.utils.kdl_ik_solver.KdlSolver"><span class="pre">KdlSolver</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">target_pose</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">base</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ee</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">q_final_single_chain</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">q0_single_chain</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.mp_ik_solver.BaseIKSolverProcess.calculate_result_metrics" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.mp_ik_solver.BaseIKSolverProcess.clear_queue">
+<span class="sig-name descname"><span class="pre">clear_queue</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">q</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Queue</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.mp_ik_solver.BaseIKSolverProcess.clear_queue" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.mp_ik_solver.BaseIKSolverProcess.get_result">
+<span class="sig-name descname"><span class="pre">get_result</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.mp_ik_solver.BaseIKSolverProcess.get_result" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.mp_ik_solver.BaseIKSolverProcess.start">
+<span class="sig-name descname"><span class="pre">start</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.mp_ik_solver.BaseIKSolverProcess.start" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.mp_ik_solver.BaseIKSolverProcess.stop">
+<span class="sig-name descname"><span class="pre">stop</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.mp_ik_solver.BaseIKSolverProcess.stop" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.mp_ik_solver.KDL_IKSolverProcess">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.mp_ik_solver.</span></span><span class="sig-name descname"><span class="pre">KDL_IKSolverProcess</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ik_solver_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">robot_urdf_path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">control_event</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">communication_queue</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_duration</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">base_links</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ee_links</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.mp_ik_solver.KDL_IKSolverProcess" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="#autolife_robot_sdk.utils.mp_ik_solver.BaseIKSolverProcess" title="autolife_robot_sdk.utils.mp_ik_solver.BaseIKSolverProcess"><code class="xref py py-class docutils literal notranslate"><span class="pre">BaseIKSolverProcess</span></code></a></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.mp_ik_solver.KDL_IKSolverProcess.run_solver">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">run_solver</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ik_solver_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">robot_urdf_path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">control_event</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">communication_queue</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_duration</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">base_links</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ee_links</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.mp_ik_solver.KDL_IKSolverProcess.run_solver" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.mp_ik_solver.MPIKSolver">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.mp_ik_solver.</span></span><span class="sig-name descname"><span class="pre">MPIKSolver</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">robot_urdf_path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">base_links</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ee_links</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ee_joints</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_duration</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.03333333333333333</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ik_solver_name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">['trac_ik',</span> <span class="pre">'kdl_ik']</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.mp_ik_solver.MPIKSolver" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.mp_ik_solver.MPIKSolver.AVAILABLE_IK_SOLVER_PROCESS">
+<span class="sig-name descname"><span class="pre">AVAILABLE_IK_SOLVER_PROCESS</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">{'kdl_ik':</span> <span class="pre">&lt;class</span> <span class="pre">'autolife_robot_sdk.utils.mp_ik_solver.KDL_IKSolverProcess'&gt;,</span> <span class="pre">'trac_ik':</span> <span class="pre">&lt;class</span> <span class="pre">'autolife_robot_sdk.utils.mp_ik_solver.TRAC_IKSolverProcess'&gt;}</span></em><a class="headerlink" href="#autolife_robot_sdk.utils.mp_ik_solver.MPIKSolver.AVAILABLE_IK_SOLVER_PROCESS" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.mp_ik_solver.MPIKSolver.solve">
+<span class="sig-name descname"><span class="pre">solve</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">target_pose</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">q0_full</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">q_lower_full</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">q_upper_full</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">base</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ee</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">single_chain_range</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">joints_to_lock</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">[]</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">locked_joint_deviation</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.005</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ik_solver_to_use</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">['trac_ik',</span> <span class="pre">'kdl_ik']</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">immediate_return</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">immediate_return_tol_levle</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">2</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">prefered_ik_solver</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'kdl_ik'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.mp_ik_solver.MPIKSolver.solve" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.mp_ik_solver.MPIKSolver.start">
+<span class="sig-name descname"><span class="pre">start</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.mp_ik_solver.MPIKSolver.start" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.mp_ik_solver.MPIKSolver.stop">
+<span class="sig-name descname"><span class="pre">stop</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.mp_ik_solver.MPIKSolver.stop" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.mp_ik_solver.TRAC_IKSolverProcess">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.mp_ik_solver.</span></span><span class="sig-name descname"><span class="pre">TRAC_IKSolverProcess</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ik_solver_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">robot_urdf_path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">control_event</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">communication_queue</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_duration</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">base_links</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ee_links</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.mp_ik_solver.TRAC_IKSolverProcess" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="#autolife_robot_sdk.utils.mp_ik_solver.BaseIKSolverProcess" title="autolife_robot_sdk.utils.mp_ik_solver.BaseIKSolverProcess"><code class="xref py py-class docutils literal notranslate"><span class="pre">BaseIKSolverProcess</span></code></a></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.mp_ik_solver.TRAC_IKSolverProcess.run_solver">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">run_solver</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ik_solver_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">robot_urdf_path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">control_event</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">communication_queue</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_duration</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">base_links</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ee_links</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.mp_ik_solver.TRAC_IKSolverProcess.run_solver" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-autolife_robot_sdk.utils.opus_decoder">
+<span id="autolife-robot-sdk-utils-opus-decoder-module"></span><h2>autolife_robot_sdk.utils.opus_decoder module<a class="headerlink" href="#module-autolife_robot_sdk.utils.opus_decoder" title="Link to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.opus_decoder.GstOpusDecoder">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.opus_decoder.</span></span><span class="sig-name descname"><span class="pre">GstOpusDecoder</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">input_sample_rate</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">input_channels</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">output_sample_rate</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">output_channels</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">resample_quality</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">5</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.opus_decoder.GstOpusDecoder" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.opus_decoder.GstOpusDecoder.push_opus_data">
+<span class="sig-name descname"><span class="pre">push_opus_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">opus_data</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bytes</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.opus_decoder.GstOpusDecoder.push_opus_data" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.opus_decoder.GstOpusDecoder.register_pcm_data_callback">
+<span class="sig-name descname"><span class="pre">register_pcm_data_callback</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">callback</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Callable</span><span class="p"><span class="pre">[</span></span><span class="p"><span class="pre">[</span></span><span class="pre">bytes</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">None</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.opus_decoder.GstOpusDecoder.register_pcm_data_callback" title="Link to this definition"></a></dt>
+<dd><p>Register a callback to receive raw audio data</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.opus_decoder.GstOpusDecoder.start">
+<span class="sig-name descname"><span class="pre">start</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#autolife_robot_sdk.utils.opus_decoder.GstOpusDecoder.start" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.opus_decoder.GstOpusDecoder.stop">
+<span class="sig-name descname"><span class="pre">stop</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#autolife_robot_sdk.utils.opus_decoder.GstOpusDecoder.stop" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.opus_decoder.GstOpusDecoder.unregister_pcm_data_callback">
+<span class="sig-name descname"><span class="pre">unregister_pcm_data_callback</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">callback</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Callable</span><span class="p"><span class="pre">[</span></span><span class="p"><span class="pre">[</span></span><span class="pre">bytes</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">None</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.opus_decoder.GstOpusDecoder.unregister_pcm_data_callback" title="Link to this definition"></a></dt>
+<dd><p>Unregister a raw audio data callback</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-autolife_robot_sdk.utils.opus_encoder">
+<span id="autolife-robot-sdk-utils-opus-encoder-module"></span><h2>autolife_robot_sdk.utils.opus_encoder module<a class="headerlink" href="#module-autolife_robot_sdk.utils.opus_encoder" title="Link to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.opus_encoder.GstOpusEncoder">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.opus_encoder.</span></span><span class="sig-name descname"><span class="pre">GstOpusEncoder</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">input_sample_rate</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">input_channels</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">output_sample_rate</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">output_channels</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">resample_quality</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">5</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bitrate</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">64000</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.opus_encoder.GstOpusEncoder" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.opus_encoder.GstOpusEncoder.push_pcm_data">
+<span class="sig-name descname"><span class="pre">push_pcm_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">pcm_data</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bytes</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.opus_encoder.GstOpusEncoder.push_pcm_data" title="Link to this definition"></a></dt>
+<dd><p>Push PCM audio data into the encoder pipeline</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.opus_encoder.GstOpusEncoder.register_opus_data_callback">
+<span class="sig-name descname"><span class="pre">register_opus_data_callback</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">callback</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Callable</span><span class="p"><span class="pre">[</span></span><span class="p"><span class="pre">[</span></span><span class="pre">bytes</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">None</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.opus_encoder.GstOpusEncoder.register_opus_data_callback" title="Link to this definition"></a></dt>
+<dd><p>Register a callback to receive encoded OPUS audio data</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.opus_encoder.GstOpusEncoder.start">
+<span class="sig-name descname"><span class="pre">start</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#autolife_robot_sdk.utils.opus_encoder.GstOpusEncoder.start" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.opus_encoder.GstOpusEncoder.stop">
+<span class="sig-name descname"><span class="pre">stop</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#autolife_robot_sdk.utils.opus_encoder.GstOpusEncoder.stop" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.opus_encoder.GstOpusEncoder.unregister_opus_data_callback">
+<span class="sig-name descname"><span class="pre">unregister_opus_data_callback</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">callback</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Callable</span><span class="p"><span class="pre">[</span></span><span class="p"><span class="pre">[</span></span><span class="pre">bytes</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">None</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.opus_encoder.GstOpusEncoder.unregister_opus_data_callback" title="Link to this definition"></a></dt>
+<dd><p>Unregister an OPUS audio data callback</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-autolife_robot_sdk.utils.pid">
+<span id="autolife-robot-sdk-utils-pid-module"></span><h2>autolife_robot_sdk.utils.pid module<a class="headerlink" href="#module-autolife_robot_sdk.utils.pid" title="Link to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.pid.PID">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.pid.</span></span><span class="sig-name descname"><span class="pre">PID</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">Kp</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">Ki</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">Kd</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.pid.PID" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.pid.PID.update">
+<span class="sig-name descname"><span class="pre">update</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">error</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dt</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.pid.PID.update" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-autolife_robot_sdk.utils.profiling">
+<span id="autolife-robot-sdk-utils-profiling-module"></span><h2>autolife_robot_sdk.utils.profiling module<a class="headerlink" href="#module-autolife_robot_sdk.utils.profiling" title="Link to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.profiling.ProfilerContext">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.profiling.</span></span><span class="sig-name descname"><span class="pre">ProfilerContext</span></span><a class="headerlink" href="#autolife_robot_sdk.utils.profiling.ProfilerContext" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+</dd></dl>
+
+</section>
+<section id="module-autolife_robot_sdk.utils.repeatable_timer">
+<span id="autolife-robot-sdk-utils-repeatable-timer-module"></span><h2>autolife_robot_sdk.utils.repeatable_timer module<a class="headerlink" href="#module-autolife_robot_sdk.utils.repeatable_timer" title="Link to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.repeatable_timer.RepeatableTimer">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.repeatable_timer.</span></span><span class="sig-name descname"><span class="pre">RepeatableTimer</span></span><a class="headerlink" href="#autolife_robot_sdk.utils.repeatable_timer.RepeatableTimer" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.repeatable_timer.RepeatableTimer.cancel">
+<span class="sig-name descname"><span class="pre">cancel</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.repeatable_timer.RepeatableTimer.cancel" title="Link to this definition"></a></dt>
+<dd><p>Cancel the task</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.repeatable_timer.RepeatableTimer.is_running">
+<span class="sig-name descname"><span class="pre">is_running</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.repeatable_timer.RepeatableTimer.is_running" title="Link to this definition"></a></dt>
+<dd><p>Check if the task is running</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.repeatable_timer.RepeatableTimer.run">
+<span class="sig-name descname"><span class="pre">run</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">seconds</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">action</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">args</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">kwargs</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.repeatable_timer.RepeatableTimer.run" title="Link to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>seconds</strong> – interval / second</p></li>
+<li><p><strong>action</strong> – task function</p></li>
+<li><p><strong>args</strong> – task function args</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-autolife_robot_sdk.utils.ros2_socket">
+<span id="autolife-robot-sdk-utils-ros2-socket-module"></span><h2>autolife_robot_sdk.utils.ros2_socket module<a class="headerlink" href="#module-autolife_robot_sdk.utils.ros2_socket" title="Link to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.ros2_socket.ROS2Socket">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.ros2_socket.</span></span><span class="sig-name descname"><span class="pre">ROS2Socket</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">node_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">input_topic</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">output_topic</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.ros2_socket.ROS2Socket" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>This is intended to be used in place of socket.socket</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.ros2_socket.ROS2Socket.bind">
+<span class="sig-name descname"><span class="pre">bind</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.ros2_socket.ROS2Socket.bind" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.ros2_socket.ROS2Socket.command_callback">
+<span class="sig-name descname"><span class="pre">command_callback</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">msg</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.ros2_socket.ROS2Socket.command_callback" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.ros2_socket.ROS2Socket.recvfrom">
+<span class="sig-name descname"><span class="pre">recvfrom</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.ros2_socket.ROS2Socket.recvfrom" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.ros2_socket.ROS2Socket.sendto">
+<span class="sig-name descname"><span class="pre">sendto</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">bytes</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">_</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.ros2_socket.ROS2Socket.sendto" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.ros2_socket.ROS2Socket.settimeout">
+<span class="sig-name descname"><span class="pre">settimeout</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.ros2_socket.ROS2Socket.settimeout" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-autolife_robot_sdk.utils.socket_transceiver">
+<span id="autolife-robot-sdk-utils-socket-transceiver-module"></span><h2>autolife_robot_sdk.utils.socket_transceiver module<a class="headerlink" href="#module-autolife_robot_sdk.utils.socket_transceiver" title="Link to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.socket_transceiver.SocketTransceiver">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.socket_transceiver.</span></span><span class="sig-name descname"><span class="pre">SocketTransceiver</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">rx_port</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tx_ip</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tx_port</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rx_timeout</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.5</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rx_buffer_size</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">5242880</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.socket_transceiver.SocketTransceiver" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.socket_transceiver.SocketTransceiver.close">
+<span class="sig-name descname"><span class="pre">close</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.socket_transceiver.SocketTransceiver.close" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.socket_transceiver.SocketTransceiver.receive">
+<span class="sig-name descname"><span class="pre">receive</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.socket_transceiver.SocketTransceiver.receive" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.socket_transceiver.SocketTransceiver.send">
+<span class="sig-name descname"><span class="pre">send</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.socket_transceiver.SocketTransceiver.send" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-autolife_robot_sdk.utils.threaded_task">
+<span id="autolife-robot-sdk-utils-threaded-task-module"></span><h2>autolife_robot_sdk.utils.threaded_task module<a class="headerlink" href="#module-autolife_robot_sdk.utils.threaded_task" title="Link to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.threaded_task.ThreadedTask">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.threaded_task.</span></span><span class="sig-name descname"><span class="pre">ThreadedTask</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">task_interval</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">disabled_sleep_time</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.01</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.threaded_task.ThreadedTask" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.threaded_task.ThreadedTask.disable">
+<span class="sig-name descname"><span class="pre">disable</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.threaded_task.ThreadedTask.disable" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.threaded_task.ThreadedTask.enable">
+<span class="sig-name descname"><span class="pre">enable</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.threaded_task.ThreadedTask.enable" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.threaded_task.ThreadedTask.is_alive">
+<span class="sig-name descname"><span class="pre">is_alive</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.threaded_task.ThreadedTask.is_alive" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.threaded_task.ThreadedTask.is_enabled">
+<span class="sig-name descname"><span class="pre">is_enabled</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.threaded_task.ThreadedTask.is_enabled" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.threaded_task.ThreadedTask.is_running">
+<span class="sig-name descname"><span class="pre">is_running</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.threaded_task.ThreadedTask.is_running" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.threaded_task.ThreadedTask.start">
+<span class="sig-name descname"><span class="pre">start</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.threaded_task.ThreadedTask.start" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.threaded_task.ThreadedTask.stop">
+<span class="sig-name descname"><span class="pre">stop</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">timeout</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">3.0</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.threaded_task.ThreadedTask.stop" title="Link to this definition"></a></dt>
+<dd><p>Stop the background thread.</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>timeout: Maximum time to wait for thread to stop</p>
+</dd>
+<dt>Returns:</dt><dd><p>bool: True if thread stopped successfully, False if timeout occurred</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-autolife_robot_sdk.utils.transforms">
+<span id="autolife-robot-sdk-utils-transforms-module"></span><h2>autolife_robot_sdk.utils.transforms module<a class="headerlink" href="#module-autolife_robot_sdk.utils.transforms" title="Link to this heading"></a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.cm2m">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">cm2m</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">d</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.cm2m" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.cm2mm">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">cm2mm</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">d</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.cm2mm" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.col2vec">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">col2vec</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">col</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">ndarray</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">ndarray</span></span></span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.col2vec" title="Link to this definition"></a></dt>
+<dd><p>Convert 2D nx1 array (nx1 column matrix) to 1D array with n variables (n-vector)
+:param col: nx1 2D array
+:return: n 1D array</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.convert_unit">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">convert_unit</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">input_unit</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">output_unit</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">tuple</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">ndarray</span></span></span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.convert_unit" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.deg2rad">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">deg2rad</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">theta</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.deg2rad" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.euler2mat">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">euler2mat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">phi</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">theta</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">psi</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">unit</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'RAD'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">seq</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'xyz'</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">ndarray</span></span></span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.euler2mat" title="Link to this definition"></a></dt>
+<dd><p>Convert Euler angles with given sequence to rotation matrix</p>
+<p>Intrinsic convention: <a class="reference external" href="https://en.wikipedia.org/wiki/Euler_angles#Conventions_by_intrinsic_rotations">https://en.wikipedia.org/wiki/Euler_angles#Conventions_by_intrinsic_rotations</a></p>
+<p>Extrinsic convention: <a class="reference external" href="https://en.wikipedia.org/wiki/Euler_angles#Conventions_by_extrinsic_rotations">https://en.wikipedia.org/wiki/Euler_angles#Conventions_by_extrinsic_rotations</a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>phi</strong> – 1st euler angle, if seq is XYZ, this angle is also known as roll</p></li>
+<li><p><strong>theta</strong> – 2nd euler angle, if seq is XYZ, this angle is also known as pitch</p></li>
+<li><p><strong>psi</strong> – 3rd euler angle, if seq is XYZ, this angle is also known as yaw</p></li>
+<li><p><strong>unit</strong> – AngularUnit.RAD or AngularUnit.DEG for angles</p></li>
+<li><p><strong>seq</strong> – Intrinsic convention with big character ‘XYZ’ or extrinsic convention with small character ‘xyz’</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>rotation matrix</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.exp2mat">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">exp2mat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">w</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">theta</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">unit</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'RAD'</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">ndarray</span></span></span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.exp2mat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.m2cm">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">m2cm</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">d</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.m2cm" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.m2mm">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">m2mm</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">d</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.m2mm" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.mat2euler">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">mat2euler</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">rot</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">seq</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'zxz'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">unit</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'RAD'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.mat2euler" title="Link to this definition"></a></dt>
+<dd><p>Convert rotation matrix to Euler angles with given sequence</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.mat2exp">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">mat2exp</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">rot</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">ndarray</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">ndarray</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.mat2exp" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.mat2quat">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">mat2quat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">rot</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.mat2quat" title="Link to this definition"></a></dt>
+<dd><p>Quaternion (x, y, z, w) from rotation matrix</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.mat2rotvec">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">mat2rotvec</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">rot</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.mat2rotvec" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.mat2rpy">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">mat2rpy</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">rot</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">seq</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'XYZ'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">unit</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'RAD'</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">tuple</span></span></span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.mat2rpy" title="Link to this definition"></a></dt>
+<dd><p>Convert rotation matrix to Euler angles with given sequence</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.mat2twist">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">mat2twist</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">tr</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">ndarray</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.mat2twist" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.mat2xyzquat">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">mat2xyzquat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">tr</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.mat2xyzquat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.mat2xyzrpy">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">mat2xyzrpy</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">tr</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">seq</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'XYZ'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">is_radian</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.mat2xyzrpy" title="Link to this definition"></a></dt>
+<dd><p>Return xyzrpy(in seq) generated from tr for intrinsic rotations(upper case)(Reference to base frame).</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.mat2xyzvec">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">mat2xyzvec</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">tr</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.mat2xyzvec" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.mat_check">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">mat_check</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mat</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dim</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.mat_check" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.mm2cm">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">mm2cm</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">d</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.mm2cm" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.mm2m">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">mm2m</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">d</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.mm2m" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.pinSE3_to_pose">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">pinSE3_to_pose</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">se3_object</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.pinSE3_to_pose" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.pose_to_pinSE3">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">pose_to_pinSE3</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">position</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">orientation</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.pose_to_pinSE3" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.quat2mat">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">quat2mat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">z</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">w</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.quat2mat" title="Link to this definition"></a></dt>
+<dd><p>Rotation matrix from quaternion (x, y, z, w)</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.rad2deg">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">rad2deg</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">theta</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.rad2deg" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.rot_check">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">rot_check</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">rot</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.rot_check" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.rotvec2mat">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">rotvec2mat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">rotvec</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.rotvec2mat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.rotx">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">rotx</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">theta</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">unit</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'RAD'</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">ndarray</span></span></span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.rotx" title="Link to this definition"></a></dt>
+<dd><p>ROTX gives rotation about X axis</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>theta</strong> – angle for rotation matrix</p></li>
+<li><p><strong>unit</strong> – unit of input passed. AngularUnit.RAD or AngularUnit.DEG</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>rotation matrix</p>
+</dd>
+</dl>
+<p>rotx(THETA) is an SO(3) rotation matrix (3x3) representing a rotation
+of THETA radians about the x-axis
+rotx(THETA, AngularUnit.DEG) as above but THETA is in degrees</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.roty">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">roty</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">theta</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">unit</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'RAD'</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">ndarray</span></span></span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.roty" title="Link to this definition"></a></dt>
+<dd><p>ROTY Rotation about Y axis</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>theta</strong> – angle for rotation matrix</p></li>
+<li><p><strong>unit</strong> – unit of input passed. AngularUnit.RAD or AngularUnit.DEG</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>rotation matrix</p>
+</dd>
+</dl>
+<p>roty(THETA) is an SO(3) rotation matrix (3x3) representing a rotation
+of THETA radians about the y-axis
+roty(THETA, AngularUnit.DEG) as above but THETA is in degrees</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.rotz">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">rotz</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">theta</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">unit</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'RAD'</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">ndarray</span></span></span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.rotz" title="Link to this definition"></a></dt>
+<dd><p>ROTZ Rotation about Z axis</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>theta</strong> – angle for rotation matrix</p></li>
+<li><p><strong>unit</strong> – unit of input passed. AngularUnit.RAD or AngularUnit.DEG</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>rotation matrix</p>
+</dd>
+</dl>
+<p>rotz(THETA) is an SO(3) rotation matrix (3x3) representing a rotation
+of THETA radians about the z-axis
+rotz(THETA, AngularUnit.DEG) as above but THETA is in degrees</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.row2vec">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">row2vec</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">row</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">ndarray</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">ndarray</span></span></span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.row2vec" title="Link to this definition"></a></dt>
+<dd><p>Convert 2D 1xn array (1xn row matrix) to 1D array with n variables (n-vector)
+:param row: 1xn 2D array
+:return: n 1D array</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.rpy2mat">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">rpy2mat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">roll</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pitch</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">yaw</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">unit</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'RAD'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">seq</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'XYZ'</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">ndarray</span></span></span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.rpy2mat" title="Link to this definition"></a></dt>
+<dd><p>Convert Euler angles with given sequence to rotation matrix</p>
+<p>Intrinsic convention: <a class="reference external" href="https://en.wikipedia.org/wiki/Euler_angles#Conventions_by_intrinsic_rotations">https://en.wikipedia.org/wiki/Euler_angles#Conventions_by_intrinsic_rotations</a></p>
+<p>Extrinsic convention: <a class="reference external" href="https://en.wikipedia.org/wiki/Euler_angles#Conventions_by_extrinsic_rotations">https://en.wikipedia.org/wiki/Euler_angles#Conventions_by_extrinsic_rotations</a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>roll</strong> – 1st euler angle, if seq is XYZ, this angle is also known as roll</p></li>
+<li><p><strong>pitch</strong> – 2nd euler angle, if seq is XYZ, this angle is also known as pitch</p></li>
+<li><p><strong>yaw</strong> – 3rd euler angle, if seq is XYZ, this angle is also known as yaw</p></li>
+<li><p><strong>unit</strong> – AngularUnit.RAD or AngularUnit.DEG for angles</p></li>
+<li><p><strong>seq</strong> – Intrinsic convention with big character ‘XYZ’ or extrinsic convention with small character ‘xyz’</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>rotation matrix</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.screw2twist">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">screw2twist</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">h</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">l</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">M</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.screw2twist" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.skew">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">skew</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">vec</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">ndarray</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">ndarray</span></span></span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.skew" title="Link to this definition"></a></dt>
+<dd><p>SKEW creates Skew-symmetric metrix from vector. SKEW(V) is a skew-symmetric matrix formed from V.</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>V = [vx, vy, vz]
+    |  0  -vz   vy |
+S = | vz    0  -vx |
+    |-vy   vx    0 |
+</pre></div>
+</div>
+<dl class="simple">
+<dt>Notes::</dt><dd><ul class="simple">
+<li><p>This is the inverse of the function VEX().</p></li>
+<li><p>These are the generator matrices for the Lie algebras so(2) and so(3).</p></li>
+</ul>
+</dd>
+<dt>Args:</dt><dd><ul class="simple">
+<li><p>vec: vector (1x3)</p></li>
+</ul>
+</dd>
+<dt>Returns:</dt><dd><ul class="simple">
+<li><p>skew-symmetric matrix</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.translate_x">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">translate_x</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">position</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">ndarray</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">delta</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">position_unit</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">delta_unit</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">ndarray</span></span></span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.translate_x" title="Link to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Position<span class="colon">:</span></dt>
+<dd class="field-odd"><p>current position</p>
+</dd>
+<dt class="field-even">Delta<span class="colon">:</span></dt>
+<dd class="field-even"><p>distance along axis</p>
+</dd>
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>new position in current position’s unit</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.translate_y">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">translate_y</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">position</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">ndarray</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">delta</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">position_unit</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">delta_unit</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">ndarray</span></span></span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.translate_y" title="Link to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Position<span class="colon">:</span></dt>
+<dd class="field-odd"><p>current position</p>
+</dd>
+<dt class="field-even">Delta<span class="colon">:</span></dt>
+<dd class="field-even"><p>distance along axis</p>
+</dd>
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>new position in current position’s unit</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.translate_z">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">translate_z</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">position</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">ndarray</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">delta</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">position_unit</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">delta_unit</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">ndarray</span></span></span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.translate_z" title="Link to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Position<span class="colon">:</span></dt>
+<dd class="field-odd"><p>current position</p>
+</dd>
+<dt class="field-even">Delta<span class="colon">:</span></dt>
+<dd class="field-even"><p>distance along axis</p>
+</dd>
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>new position in current position’s unit</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.twist2mat">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">twist2mat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">twist</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">theta</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">unit</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'RAD'</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">ndarray</span></span></span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.twist2mat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.twist2screw">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">twist2screw</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">twist</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">theta</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">unit</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'RAD'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.twist2screw" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.vec2col">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">vec2col</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">vec</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">ndarray</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">ndarray</span></span></span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.vec2col" title="Link to this definition"></a></dt>
+<dd><p>Convert 1D array with n variables (n-vector) to 2D nx1 array (nx1 column matrix)
+:param vec: n 1D array
+:return: nx1 2D array</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.vec2row">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">vec2row</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">vec</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">ndarray</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">ndarray</span></span></span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.vec2row" title="Link to this definition"></a></dt>
+<dd><p>Convert 1D array with n variables (n-vector) to 2D 1xn array (1xn row matrix)
+:param vec: n 1D array
+:return: 1xn 2D array</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.vec_check">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">vec_check</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">vec</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dim</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.vec_check" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.vee">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">vee</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mat</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.vee" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.vex">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">vex</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mat</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">ndarray</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">ndarray</span></span></span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.vex" title="Link to this definition"></a></dt>
+<dd><p>If mat is a skew-symmetric matrix, VEX convert skew-symmetric matrix to vector. VEX(S) is the vector which has the corresponding skew-symmetric matrix S.</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>In the case that S (3x3) then V is 3x1.
+            |  0  -vz   vy |
+        S = | vz    0  -vx |
+            |-vy   vx    0 |
+</pre></div>
+</div>
+<p>If mat is a general matrix, VEX just compute a vector by the same way defined by that if mat was a skew-symmetric matrix</p>
+<dl class="simple">
+<dt>Notes::</dt><dd><ul class="simple">
+<li><p>This is the inverse of the function SKEW() if mat is a skew-symmetric matrix.</p></li>
+<li><p>Only rudimentary checking (zero diagonal) is done to ensure that the matrix is actually skew-symmetric.</p></li>
+<li><p>The function takes the mean of the two elements that correspond to each unique element of the matrix.</p></li>
+</ul>
+</dd>
+<dt>Args:</dt><dd><ul class="simple">
+<li><p>mat:matrix</p></li>
+</ul>
+</dd>
+<dt>Returns:</dt><dd><ul class="simple">
+<li><p>vector</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.wedge">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">wedge</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">vec</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.wedge" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.xyzquat2mat">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">xyzquat2mat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">xyzquat</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.xyzquat2mat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.xyzrpy2mat">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">xyzrpy2mat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">xyzrpy</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">seq</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'XYZ'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">is_radian</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.xyzrpy2mat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.transforms.xyzvec2mat">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.transforms.</span></span><span class="sig-name descname"><span class="pre">xyzvec2mat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">xyzvec</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.transforms.xyzvec2mat" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</section>
+<section id="module-autolife_robot_sdk.utils.urdf2kdl">
+<span id="autolife-robot-sdk-utils-urdf2kdl-module"></span><h2>autolife_robot_sdk.utils.urdf2kdl module<a class="headerlink" href="#module-autolife_robot_sdk.utils.urdf2kdl" title="Link to this heading"></a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.urdf2kdl.treeFromFile">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.urdf2kdl.</span></span><span class="sig-name descname"><span class="pre">treeFromFile</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">filename</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.urdf2kdl.treeFromFile" title="Link to this definition"></a></dt>
+<dd><p>Construct a PyKDL.Tree from an URDF file.
+:param filename: URDF file path</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.urdf2kdl.treeFromParam">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.urdf2kdl.</span></span><span class="sig-name descname"><span class="pre">treeFromParam</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">param</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.urdf2kdl.treeFromParam" title="Link to this definition"></a></dt>
+<dd><p>Construct a PyKDL.Tree from an URDF in a ROS parameter.
+:param param: Parameter name, <code class="docutils literal notranslate"><span class="pre">str</span></code></p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.urdf2kdl.treeFromString">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.urdf2kdl.</span></span><span class="sig-name descname"><span class="pre">treeFromString</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">xml</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.urdf2kdl.treeFromString" title="Link to this definition"></a></dt>
+<dd><p>Construct a PyKDL.Tree from an URDF xml string.
+:param xml: URDF xml string, <code class="docutils literal notranslate"><span class="pre">str</span></code></p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="autolife_robot_sdk.utils.urdf2kdl.treeFromUrdfModel">
+<span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.utils.urdf2kdl.</span></span><span class="sig-name descname"><span class="pre">treeFromUrdfModel</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">robot_model</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">quiet</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.utils.urdf2kdl.treeFromUrdfModel" title="Link to this definition"></a></dt>
+<dd><p>Construct a PyKDL.Tree from an URDF model from urdf_parser_python.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>robot_model</strong> – URDF xml string, <code class="docutils literal notranslate"><span class="pre">str</span></code></p></li>
+<li><p><strong>quiet</strong> – If true suppress messages to stdout, <code class="docutils literal notranslate"><span class="pre">bool</span></code></p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+<section id="module-autolife_robot_sdk.utils">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-autolife_robot_sdk.utils" title="Link to this heading"></a></h2>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="autolife_robot_sdk.sim_pybullet.html" class="btn btn-neutral float-left" title="autolife_robot_sdk.sim_pybullet package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="autolife_robot_sdk.viewer_meshcat.html" class="btn btn-neutral float-right" title="autolife_robot_sdk.viewer_meshcat package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, AutolifeRobotics.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>  
+
+  <style>
+         .wy-nav-content { max-width: none; }
+  </style>
+
+
+
+</body>
+</html>

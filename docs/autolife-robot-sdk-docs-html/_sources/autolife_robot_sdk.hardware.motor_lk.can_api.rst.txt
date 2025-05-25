@@ -1,0 +1,29 @@
+autolife\_robot\_sdk.hardware.motor\_lk.can\_api package
+========================================================
+
+Submodules
+----------
+
+autolife\_robot\_sdk.hardware.motor\_lk.can\_api.controller module
+------------------------------------------------------------------
+
+.. automodule:: autolife_robot_sdk.hardware.motor_lk.can_api.controller
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+autolife\_robot\_sdk.hardware.motor\_lk.can\_api.lk\_can\_cmd module
+--------------------------------------------------------------------
+
+.. automodule:: autolife_robot_sdk.hardware.motor_lk.can_api.lk_can_cmd
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: autolife_robot_sdk.hardware.motor_lk.can_api
+   :members:
+   :undoc-members:
+   :show-inheritance:

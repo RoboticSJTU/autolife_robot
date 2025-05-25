@@ -1,0 +1,19 @@
+autolife\_robot\_sdk.hardware.motor\_hiwonder package
+=====================================================
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   autolife_robot_sdk.hardware.motor_hiwonder.board_api
+   autolife_robot_sdk.hardware.motor_hiwonder.servo_api
+
+Module contents
+---------------
+
+.. automodule:: autolife_robot_sdk.hardware.motor_hiwonder
+   :members:
+   :undoc-members:
+   :show-inheritance:

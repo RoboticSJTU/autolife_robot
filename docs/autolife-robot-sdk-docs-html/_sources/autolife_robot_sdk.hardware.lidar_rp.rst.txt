@@ -1,0 +1,21 @@
+autolife\_robot\_sdk.hardware.lidar\_rp package
+===============================================
+
+Submodules
+----------
+
+autolife\_robot\_sdk.hardware.lidar\_rp.serial\_reader module
+-------------------------------------------------------------
+
+.. automodule:: autolife_robot_sdk.hardware.lidar_rp.serial_reader
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: autolife_robot_sdk.hardware.lidar_rp
+   :members:
+   :undoc-members:
+   :show-inheritance:

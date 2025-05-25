@@ -1,0 +1,29 @@
+autolife\_robot\_sdk.hardware.motor\_dm.serial\_api package
+===========================================================
+
+Submodules
+----------
+
+autolife\_robot\_sdk.hardware.motor\_dm.serial\_api.controller module
+---------------------------------------------------------------------
+
+.. automodule:: autolife_robot_sdk.hardware.motor_dm.serial_api.controller
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+autolife\_robot\_sdk.hardware.motor\_dm.serial\_api.dm\_serial\_cmd module
+--------------------------------------------------------------------------
+
+.. automodule:: autolife_robot_sdk.hardware.motor_dm.serial_api.dm_serial_cmd
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: autolife_robot_sdk.hardware.motor_dm.serial_api
+   :members:
+   :undoc-members:
+   :show-inheritance:

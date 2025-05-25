@@ -1,0 +1,19 @@
+autolife\_robot\_sdk.hardware.motor\_eu package
+===============================================
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   autolife_robot_sdk.hardware.motor_eu.can_api
+   autolife_robot_sdk.hardware.motor_eu.canopen_api
+
+Module contents
+---------------
+
+.. automodule:: autolife_robot_sdk.hardware.motor_eu
+   :members:
+   :undoc-members:
+   :show-inheritance:

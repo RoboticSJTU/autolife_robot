@@ -1,0 +1,835 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>autolife_robot_sdk.hardware.motor_eu.can_api package &mdash; AutolifeRobotSDK 1.0.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=8d563738"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="autolife_robot_sdk.hardware.motor_eu.canopen_api package" href="autolife_robot_sdk.hardware.motor_eu.canopen_api.html" />
+    <link rel="prev" title="autolife_robot_sdk.hardware.motor_eu package" href="autolife_robot_sdk.hardware.motor_eu.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            AutolifeRobotSDK
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">autolife_robot_sdk</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="autolife_robot_sdk.html">autolife_robot_sdk package</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="autolife_robot_sdk.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="autolife_robot_sdk.dummy.html">autolife_robot_sdk.dummy package</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="autolife_robot_sdk.hardware.html">autolife_robot_sdk.hardware package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="autolife_robot_sdk.interface.html">autolife_robot_sdk.interface package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="autolife_robot_sdk.sim_pybullet.html">autolife_robot_sdk.sim_pybullet package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="autolife_robot_sdk.utils.html">autolife_robot_sdk.utils package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="autolife_robot_sdk.viewer_meshcat.html">autolife_robot_sdk.viewer_meshcat package</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="autolife_robot_sdk.html#module-autolife_robot_sdk">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">AutolifeRobotSDK</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="modules.html">autolife_robot_sdk</a></li>
+          <li class="breadcrumb-item"><a href="autolife_robot_sdk.html">autolife_robot_sdk package</a></li>
+          <li class="breadcrumb-item"><a href="autolife_robot_sdk.hardware.html">autolife_robot_sdk.hardware package</a></li>
+          <li class="breadcrumb-item"><a href="autolife_robot_sdk.hardware.motor_eu.html">autolife_robot_sdk.hardware.motor_eu package</a></li>
+      <li class="breadcrumb-item active">autolife_robot_sdk.hardware.motor_eu.can_api package</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/autolife_robot_sdk.hardware.motor_eu.can_api.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="autolife-robot-sdk-hardware-motor-eu-can-api-package">
+<h1>autolife_robot_sdk.hardware.motor_eu.can_api package<a class="headerlink" href="#autolife-robot-sdk-hardware-motor-eu-can-api-package" title="Link to this heading"></a></h1>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Link to this heading"></a></h2>
+</section>
+<section id="module-autolife_robot_sdk.hardware.motor_eu.can_api.controller">
+<span id="autolife-robot-sdk-hardware-motor-eu-can-api-controller-module"></span><h2>autolife_robot_sdk.hardware.motor_eu.can_api.controller module<a class="headerlink" href="#module-autolife_robot_sdk.hardware.motor_eu.can_api.controller" title="Link to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.hardware.motor_eu.can_api.controller.</span></span><span class="sig-name descname"><span class="pre">EUMotorCANController</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">channel</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bitrate</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">interface</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'pcan'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">config</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="autolife_robot_sdk.interface.html#autolife_robot_sdk.interface.motor.MotorInterface" title="autolife_robot_sdk.interface.motor.MotorInterface"><code class="xref py py-class docutils literal notranslate"><span class="pre">MotorInterface</span></code></a></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.close">
+<span class="sig-name descname"><span class="pre">close</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.close" title="Link to this definition"></a></dt>
+<dd><p>Close the controller and release resources</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.convert_to_single_circle_position">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">convert_to_single_circle_position</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">angle</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">single_circle_pos_range_mode</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.convert_to_single_circle_position" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.get_motor_control_mode">
+<span class="sig-name descname"><span class="pre">get_motor_control_mode</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="autolife_robot_sdk.interface.html#autolife_robot_sdk.interface.motor.ControlMode" title="autolife_robot_sdk.interface.motor.ControlMode"><span class="pre">ControlMode</span></a></span></span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.get_motor_control_mode" title="Link to this definition"></a></dt>
+<dd><p>Read the control mode of the motor</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.get_motor_error_state">
+<span class="sig-name descname"><span class="pre">get_motor_error_state</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.get_motor_error_state" title="Link to this definition"></a></dt>
+<dd><p>Read the error state of the motor</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.get_motor_position">
+<span class="sig-name descname"><span class="pre">get_motor_position</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.get_motor_position" title="Link to this definition"></a></dt>
+<dd><p>Get the current position of the motor in degrees</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.get_motor_reg_params">
+<span class="sig-name descname"><span class="pre">get_motor_reg_params</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.get_motor_reg_params" title="Link to this definition"></a></dt>
+<dd><p>Get the current register parameters of the motor</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.get_motor_speed">
+<span class="sig-name descname"><span class="pre">get_motor_speed</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.get_motor_speed" title="Link to this definition"></a></dt>
+<dd><p>Get the current speed of the motor in degrees/second</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.get_motor_status">
+<span class="sig-name descname"><span class="pre">get_motor_status</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.get_motor_status" title="Link to this definition"></a></dt>
+<dd><p>Get the current status of the motor</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.get_motor_temperature">
+<span class="sig-name descname"><span class="pre">get_motor_temperature</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.get_motor_temperature" title="Link to this definition"></a></dt>
+<dd><p>Get the current temperature of the motor in degrees Celsius</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.get_motor_torque_current">
+<span class="sig-name descname"><span class="pre">get_motor_torque_current</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.get_motor_torque_current" title="Link to this definition"></a></dt>
+<dd><p>Get the current torque of the motor in Nm</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.motor_change_can_id">
+<span class="sig-name descname"><span class="pre">motor_change_can_id</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">new_motor_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">save_to_eeprom</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.motor_change_can_id" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.motor_change_control_mode">
+<span class="sig-name descname"><span class="pre">motor_change_control_mode</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">control_mode</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="autolife_robot_sdk.interface.html#autolife_robot_sdk.interface.motor.ControlMode" title="autolife_robot_sdk.interface.motor.ControlMode"><span class="pre">ControlMode</span></a></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.motor_change_control_mode" title="Link to this definition"></a></dt>
+<dd><p>Change the control mode of the motor</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.motor_change_zero_position">
+<span class="sig-name descname"><span class="pre">motor_change_zero_position</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">offset</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">save_to_eeprom</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.motor_change_zero_position" title="Link to this definition"></a></dt>
+<dd><p>Set the current position as the zero position</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.motor_clear_error">
+<span class="sig-name descname"><span class="pre">motor_clear_error</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.motor_clear_error" title="Link to this definition"></a></dt>
+<dd><p>Clear any error state for the motor</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.motor_cyclic_synchronous_position_control">
+<span class="sig-name descname"><span class="pre">motor_cyclic_synchronous_position_control</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">position</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_speed</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">30</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_torque</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">100</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">angle_offset</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.motor_cyclic_synchronous_position_control" title="Link to this definition"></a></dt>
+<dd><p>position: deg
+max_speed: deg/s
+max_torque: 100 = 100% * rated torque
+max_acceleration: deg/s^2
+max_deceleration: deg/s^2</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.motor_disable">
+<span class="sig-name descname"><span class="pre">motor_disable</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.motor_disable" title="Link to this definition"></a></dt>
+<dd><p>Disable the motor with the given ID</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.motor_disable_position_limit">
+<span class="sig-name descname"><span class="pre">motor_disable_position_limit</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">save_to_eeprom</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.motor_disable_position_limit" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.motor_enable">
+<span class="sig-name descname"><span class="pre">motor_enable</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.motor_enable" title="Link to this definition"></a></dt>
+<dd><p>Enable the motor with the given ID</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.motor_enable_position_limit">
+<span class="sig-name descname"><span class="pre">motor_enable_position_limit</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">save_to_eeprom</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.motor_enable_position_limit" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.motor_position_control">
+<span class="sig-name descname"><span class="pre">motor_position_control</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">position</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_speed</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">10</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mode</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'profile_position_speed'</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.motor_position_control" title="Link to this definition"></a></dt>
+<dd><p>Control the position of the motor in degrees</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.motor_profile_position_speed_control">
+<span class="sig-name descname"><span class="pre">motor_profile_position_speed_control</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">position</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_speed</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">60</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_torque</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">100</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_acceleration</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">6000</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_deceleration</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">6000</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">angle_offset</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.motor_profile_position_speed_control" title="Link to this definition"></a></dt>
+<dd><p>position: deg
+max_speed: deg/s
+max_torque: 100 = 100% * rated torque
+max_acceleration: deg/s^2
+max_deceleration: deg/s^2</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.motor_scan_device">
+<span class="sig-name descname"><span class="pre">motor_scan_device</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.motor_scan_device" title="Link to this definition"></a></dt>
+<dd><p>description: 电机节点扫描, 扫描所有在线电机节点id
+param {*} self
+return {*}</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.motor_set_position_limit">
+<span class="sig-name descname"><span class="pre">motor_set_position_limit</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">lower_limit</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">upper_limit</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">save_to_eeprom</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.motor_set_position_limit" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.motor_speed_control">
+<span class="sig-name descname"><span class="pre">motor_speed_control</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">speed</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.motor_speed_control" title="Link to this definition"></a></dt>
+<dd><p>description: 1rpm=65536/60
+param {*} self
+param {*} motor_id
+param {*} speed: 电机转速
+return {*}</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.motor_stop_movement">
+<span class="sig-name descname"><span class="pre">motor_stop_movement</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.motor_stop_movement" title="Link to this definition"></a></dt>
+<dd><p>description: 结束当前运行状态，电机不失能
+param {*} self
+param {*} motor_id：电机节点id
+return {*}</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.motor_switch_single_circle_pos_range">
+<span class="sig-name descname"><span class="pre">motor_switch_single_circle_pos_range</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mode</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">save_to_eeprom</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.motor_switch_single_circle_pos_range" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.motor_torque_current_control">
+<span class="sig-name descname"><span class="pre">motor_torque_current_control</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">torque_current</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.motor_torque_current_control" title="Link to this definition"></a></dt>
+<dd><p>Control the torque current of the motor</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.motor_update_angle_offset_map">
+<span class="sig-name descname"><span class="pre">motor_update_angle_offset_map</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">angle_offset</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.motor_update_angle_offset_map" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.read_device_info">
+<span class="sig-name descname"><span class="pre">read_device_info</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.read_device_info" title="Link to this definition"></a></dt>
+<dd><p>description: 获取电机设备信息：设备序列号，硬件版本，固件版本
+param {*} self
+param {*} motor_id
+param {*} info
+return {*}</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.read_motor_alarm_info">
+<span class="sig-name descname"><span class="pre">read_motor_alarm_info</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.read_motor_alarm_info" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.read_motor_control_mode">
+<span class="sig-name descname"><span class="pre">read_motor_control_mode</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.read_motor_control_mode" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.read_motor_current">
+<span class="sig-name descname"><span class="pre">read_motor_current</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.read_motor_current" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.read_motor_device_serial_number">
+<span class="sig-name descname"><span class="pre">read_motor_device_serial_number</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.read_motor_device_serial_number" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.read_motor_enabled_status">
+<span class="sig-name descname"><span class="pre">read_motor_enabled_status</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.read_motor_enabled_status" title="Link to this definition"></a></dt>
+<dd><p>description: 电机使能|失能控制
+param {*} self
+param {*} motor_id：电机节点id
+param {*} enable：1-使能，0-失能
+return {*}</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.read_motor_pid_params">
+<span class="sig-name descname"><span class="pre">read_motor_pid_params</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.read_motor_pid_params" title="Link to this definition"></a></dt>
+<dd><p>description: 获取电机pid配置参数
+param {*} self
+param {*} motor_id
+return {*}</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.read_motor_position">
+<span class="sig-name descname"><span class="pre">read_motor_position</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">angle_offset</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.read_motor_position" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.read_motor_position_limit_info">
+<span class="sig-name descname"><span class="pre">read_motor_position_limit_info</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.read_motor_position_limit_info" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.read_motor_position_offset">
+<span class="sig-name descname"><span class="pre">read_motor_position_offset</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.read_motor_position_offset" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.read_motor_reg_params">
+<span class="sig-name descname"><span class="pre">read_motor_reg_params</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.read_motor_reg_params" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.read_motor_single_circle_pos_range_mode">
+<span class="sig-name descname"><span class="pre">read_motor_single_circle_pos_range_mode</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.read_motor_single_circle_pos_range_mode" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.read_motor_speed">
+<span class="sig-name descname"><span class="pre">read_motor_speed</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.read_motor_speed" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.read_motor_status">
+<span class="sig-name descname"><span class="pre">read_motor_status</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.read_motor_status" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.read_motor_temperature">
+<span class="sig-name descname"><span class="pre">read_motor_temperature</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">motor_id</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.read_motor_temperature" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.reset_safety_chip">
+<span class="sig-name descname"><span class="pre">reset_safety_chip</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.EUMotorCANController.reset_safety_chip" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.FilteredBufferedReader">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.hardware.motor_eu.can_api.controller.</span></span><span class="sig-name descname"><span class="pre">FilteredBufferedReader</span></span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.FilteredBufferedReader" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">BufferedReader</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.FilteredBufferedReader.on_message_received">
+<span class="sig-name descname"><span class="pre">on_message_received</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">msg</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Message</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.FilteredBufferedReader.on_message_received" title="Link to this definition"></a></dt>
+<dd><p>Append a message to the buffer.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Raises<span class="colon">:</span></dt>
+<dd class="field-odd"><p>BufferError
+if the reader has already been stopped</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.FilteredWriteFeedbackBufferedReader">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.hardware.motor_eu.can_api.controller.</span></span><span class="sig-name descname"><span class="pre">FilteredWriteFeedbackBufferedReader</span></span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.FilteredWriteFeedbackBufferedReader" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">BufferedReader</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.controller.FilteredWriteFeedbackBufferedReader.on_message_received">
+<span class="sig-name descname"><span class="pre">on_message_received</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">msg</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Message</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.controller.FilteredWriteFeedbackBufferedReader.on_message_received" title="Link to this definition"></a></dt>
+<dd><p>Append a message to the buffer.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Raises<span class="colon">:</span></dt>
+<dd class="field-odd"><p>BufferError
+if the reader has already been stopped</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd">
+<span id="autolife-robot-sdk-hardware-motor-eu-can-api-eu-can-cmd-module"></span><h2>autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd module<a class="headerlink" href="#module-autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd" title="Link to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.</span></span><span class="sig-name descname"><span class="pre">EU_CAN_CMD</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">IntEnum</span></code></p>
+<p>An enumeration.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD.FAST_WRITE">
+<span class="sig-name descname"><span class="pre">FAST_WRITE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">5</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD.FAST_WRITE" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD.NMT">
+<span class="sig-name descname"><span class="pre">NMT</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">0</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD.NMT" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD.READ">
+<span class="sig-name descname"><span class="pre">READ</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">3</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD.READ" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD.READ_RESP">
+<span class="sig-name descname"><span class="pre">READ_RESP</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">4</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD.READ_RESP" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD.WRITE">
+<span class="sig-name descname"><span class="pre">WRITE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD.WRITE" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD.WRITE_RESP">
+<span class="sig-name descname"><span class="pre">WRITE_RESP</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">2</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD.WRITE_RESP" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.</span></span><span class="sig-name descname"><span class="pre">EU_CAN_CMD_ADDR</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">IntEnum</span></code></p>
+<p>An enumeration.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.ALARM_INFO">
+<span class="sig-name descname"><span class="pre">ALARM_INFO</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">21</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.ALARM_INFO" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.CHANGE_CANID">
+<span class="sig-name descname"><span class="pre">CHANGE_CANID</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">76</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.CHANGE_CANID" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.CURRENT_I">
+<span class="sig-name descname"><span class="pre">CURRENT_I</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">36</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.CURRENT_I" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.CURRENT_P">
+<span class="sig-name descname"><span class="pre">CURRENT_P</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">35</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.CURRENT_P" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.CUR_BUS_VOLTAGE">
+<span class="sig-name descname"><span class="pre">CUR_BUS_VOLTAGE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">28</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.CUR_BUS_VOLTAGE" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.CUR_CURRENT">
+<span class="sig-name descname"><span class="pre">CUR_CURRENT</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">5</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.CUR_CURRENT" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.CUR_POSITION">
+<span class="sig-name descname"><span class="pre">CUR_POSITION</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">7</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.CUR_POSITION" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.CUR_SPEED">
+<span class="sig-name descname"><span class="pre">CUR_SPEED</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">6</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.CUR_SPEED" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.CUR_TEMPERATURE">
+<span class="sig-name descname"><span class="pre">CUR_TEMPERATURE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">29</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.CUR_TEMPERATURE" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.DEVICE_SEQ">
+<span class="sig-name descname"><span class="pre">DEVICE_SEQ</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">2</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.DEVICE_SEQ" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.EGR">
+<span class="sig-name descname"><span class="pre">EGR</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">26</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.EGR" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.ENABLE">
+<span class="sig-name descname"><span class="pre">ENABLE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">16</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.ENABLE" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.FINISH_CUR_RUNNING">
+<span class="sig-name descname"><span class="pre">FINISH_CUR_RUNNING</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">17</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.FINISH_CUR_RUNNING" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.HARDWARE_VERSION">
+<span class="sig-name descname"><span class="pre">HARDWARE_VERSION</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">3</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.HARDWARE_VERSION" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.MAX_WORK_CURRENT">
+<span class="sig-name descname"><span class="pre">MAX_WORK_CURRENT</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">48</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.MAX_WORK_CURRENT" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.MAX_WORK_SPEED">
+<span class="sig-name descname"><span class="pre">MAX_WORK_SPEED</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">49</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.MAX_WORK_SPEED" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.POSITION_I">
+<span class="sig-name descname"><span class="pre">POSITION_I</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">40</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.POSITION_I" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.POSITION_OFFSET">
+<span class="sig-name descname"><span class="pre">POSITION_OFFSET</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">59</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.POSITION_OFFSET" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.POSITION_P">
+<span class="sig-name descname"><span class="pre">POSITION_P</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">39</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.POSITION_P" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.POS_MODE_POSITION_LIMIT_ENABLED_STATE">
+<span class="sig-name descname"><span class="pre">POS_MODE_POSITION_LIMIT_ENABLED_STATE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">56</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.POS_MODE_POSITION_LIMIT_ENABLED_STATE" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.POS_MODE_POSITION_LOWER_LIMIT">
+<span class="sig-name descname"><span class="pre">POS_MODE_POSITION_LOWER_LIMIT</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">58</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.POS_MODE_POSITION_LOWER_LIMIT" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.POS_MODE_POSITION_UPPER_LIMIT">
+<span class="sig-name descname"><span class="pre">POS_MODE_POSITION_UPPER_LIMIT</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">57</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.POS_MODE_POSITION_UPPER_LIMIT" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.POS_MODE_PROFILE_MAX_ACC">
+<span class="sig-name descname"><span class="pre">POS_MODE_PROFILE_MAX_ACC</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">54</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.POS_MODE_PROFILE_MAX_ACC" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.POS_MODE_PROFILE_MAX_DEC">
+<span class="sig-name descname"><span class="pre">POS_MODE_PROFILE_MAX_DEC</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">55</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.POS_MODE_PROFILE_MAX_DEC" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.POS_MODE_PROFILE_MAX_SPEED">
+<span class="sig-name descname"><span class="pre">POS_MODE_PROFILE_MAX_SPEED</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">53</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.POS_MODE_PROFILE_MAX_SPEED" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.REDUCTION_RATIO">
+<span class="sig-name descname"><span class="pre">REDUCTION_RATIO</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">26</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.REDUCTION_RATIO" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.SET_ACC">
+<span class="sig-name descname"><span class="pre">SET_ACC</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">11</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.SET_ACC" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.SET_CURRENT">
+<span class="sig-name descname"><span class="pre">SET_CURRENT</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">8</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.SET_CURRENT" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.SET_DEC">
+<span class="sig-name descname"><span class="pre">SET_DEC</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">12</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.SET_DEC" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.SET_POSITION">
+<span class="sig-name descname"><span class="pre">SET_POSITION</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">10</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.SET_POSITION" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.SET_SPEED">
+<span class="sig-name descname"><span class="pre">SET_SPEED</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">9</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.SET_SPEED" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.SINGLE_CIRCLE_POS_RANGE">
+<span class="sig-name descname"><span class="pre">SINGLE_CIRCLE_POS_RANGE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">60</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.SINGLE_CIRCLE_POS_RANGE" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.SOFTWARE_VERSION">
+<span class="sig-name descname"><span class="pre">SOFTWARE_VERSION</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">4</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.SOFTWARE_VERSION" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.SPEED_I">
+<span class="sig-name descname"><span class="pre">SPEED_I</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">38</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.SPEED_I" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.SPEED_P">
+<span class="sig-name descname"><span class="pre">SPEED_P</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">37</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.SPEED_P" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.TORQUE_I_LIMIT">
+<span class="sig-name descname"><span class="pre">TORQUE_I_LIMIT</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">41</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.TORQUE_I_LIMIT" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.VEL_MODE_PROFILE_MAX_ACC">
+<span class="sig-name descname"><span class="pre">VEL_MODE_PROFILE_MAX_ACC</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">51</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.VEL_MODE_PROFILE_MAX_ACC" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.VEL_MODE_PROFILE_MAX_DEC">
+<span class="sig-name descname"><span class="pre">VEL_MODE_PROFILE_MAX_DEC</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">52</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.VEL_MODE_PROFILE_MAX_DEC" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.VEL_MODE_PROFILE_MAX_SPEED">
+<span class="sig-name descname"><span class="pre">VEL_MODE_PROFILE_MAX_SPEED</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">50</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.VEL_MODE_PROFILE_MAX_SPEED" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.WORK_MODE">
+<span class="sig-name descname"><span class="pre">WORK_MODE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">15</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.WORK_MODE" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.WRITE_TO_EEPROM">
+<span class="sig-name descname"><span class="pre">WRITE_TO_EEPROM</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">77</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_ADDR.WRITE_TO_EEPROM" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_WRITE_STATE">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.</span></span><span class="sig-name descname"><span class="pre">EU_CAN_CMD_WRITE_STATE</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_WRITE_STATE" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">IntEnum</span></code></p>
+<p>An enumeration.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_WRITE_STATE.DATA_CHECK_SUCCESS">
+<span class="sig-name descname"><span class="pre">DATA_CHECK_SUCCESS</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">4</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_WRITE_STATE.DATA_CHECK_SUCCESS" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_WRITE_STATE.DATA_ERROR">
+<span class="sig-name descname"><span class="pre">DATA_ERROR</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">2</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_WRITE_STATE.DATA_ERROR" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_WRITE_STATE.DATA_OUT_OF_RANGE">
+<span class="sig-name descname"><span class="pre">DATA_OUT_OF_RANGE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">3</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_WRITE_STATE.DATA_OUT_OF_RANGE" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_WRITE_STATE.FAILED">
+<span class="sig-name descname"><span class="pre">FAILED</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">0</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_WRITE_STATE.FAILED" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_WRITE_STATE.SUCCESS">
+<span class="sig-name descname"><span class="pre">SUCCESS</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_CMD_WRITE_STATE.SUCCESS" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_MOTOR_ALARM_CODE">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.</span></span><span class="sig-name descname"><span class="pre">EU_CAN_MOTOR_ALARM_CODE</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_MOTOR_ALARM_CODE" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">IntEnum</span></code></p>
+<p>An enumeration.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_MOTOR_ALARM_CODE.ENC_ANGLE_ERR">
+<span class="sig-name descname"><span class="pre">ENC_ANGLE_ERR</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">2048</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_MOTOR_ALARM_CODE.ENC_ANGLE_ERR" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_MOTOR_ALARM_CODE.ENC_MAGNETIC_ERR">
+<span class="sig-name descname"><span class="pre">ENC_MAGNETIC_ERR</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">512</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_MOTOR_ALARM_CODE.ENC_MAGNETIC_ERR" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_MOTOR_ALARM_CODE.ENC_UNDER_VOLTAGE">
+<span class="sig-name descname"><span class="pre">ENC_UNDER_VOLTAGE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1024</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_MOTOR_ALARM_CODE.ENC_UNDER_VOLTAGE" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_MOTOR_ALARM_CODE.MOTOR_LOCKED">
+<span class="sig-name descname"><span class="pre">MOTOR_LOCKED</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">64</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_MOTOR_ALARM_CODE.MOTOR_LOCKED" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_MOTOR_ALARM_CODE.OVER_CURRENT">
+<span class="sig-name descname"><span class="pre">OVER_CURRENT</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">16</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_MOTOR_ALARM_CODE.OVER_CURRENT" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_MOTOR_ALARM_CODE.OVER_LOAD">
+<span class="sig-name descname"><span class="pre">OVER_LOAD</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">32</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_MOTOR_ALARM_CODE.OVER_LOAD" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_MOTOR_ALARM_CODE.OVER_TEMPERATURE">
+<span class="sig-name descname"><span class="pre">OVER_TEMPERATURE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">4</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_MOTOR_ALARM_CODE.OVER_TEMPERATURE" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_MOTOR_ALARM_CODE.OVER_VOLTAGE">
+<span class="sig-name descname"><span class="pre">OVER_VOLTAGE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_MOTOR_ALARM_CODE.OVER_VOLTAGE" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_MOTOR_ALARM_CODE.PARAM_RW_ERR">
+<span class="sig-name descname"><span class="pre">PARAM_RW_ERR</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">256</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_MOTOR_ALARM_CODE.PARAM_RW_ERR" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_MOTOR_ALARM_CODE.PHASE_LOSS">
+<span class="sig-name descname"><span class="pre">PHASE_LOSS</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">128</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_MOTOR_ALARM_CODE.PHASE_LOSS" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_MOTOR_ALARM_CODE.UNDER_VOLTAGE">
+<span class="sig-name descname"><span class="pre">UNDER_VOLTAGE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">2</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_MOTOR_ALARM_CODE.UNDER_VOLTAGE" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_MOTOR_WORK_MODE">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.</span></span><span class="sig-name descname"><span class="pre">EU_CAN_MOTOR_WORK_MODE</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_MOTOR_WORK_MODE" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">IntEnum</span></code></p>
+<p>An enumeration.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_MOTOR_WORK_MODE.CSP">
+<span class="sig-name descname"><span class="pre">CSP</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">5</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_MOTOR_WORK_MODE.CSP" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_MOTOR_WORK_MODE.CURRENT">
+<span class="sig-name descname"><span class="pre">CURRENT</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">4</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_MOTOR_WORK_MODE.CURRENT" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_MOTOR_WORK_MODE.PROFILE_POS_SPEED">
+<span class="sig-name descname"><span class="pre">PROFILE_POS_SPEED</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_MOTOR_WORK_MODE.PROFILE_POS_SPEED" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_MOTOR_WORK_MODE.PROFILE_POS_TIME">
+<span class="sig-name descname"><span class="pre">PROFILE_POS_TIME</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">2</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_MOTOR_WORK_MODE.PROFILE_POS_TIME" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_MOTOR_WORK_MODE.PROFILE_VEL">
+<span class="sig-name descname"><span class="pre">PROFILE_VEL</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">3</span></em><a class="headerlink" href="#autolife_robot_sdk.hardware.motor_eu.can_api.eu_can_cmd.EU_CAN_MOTOR_WORK_MODE.PROFILE_VEL" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-autolife_robot_sdk.hardware.motor_eu.can_api">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-autolife_robot_sdk.hardware.motor_eu.can_api" title="Link to this heading"></a></h2>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="autolife_robot_sdk.hardware.motor_eu.html" class="btn btn-neutral float-left" title="autolife_robot_sdk.hardware.motor_eu package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="autolife_robot_sdk.hardware.motor_eu.canopen_api.html" class="btn btn-neutral float-right" title="autolife_robot_sdk.hardware.motor_eu.canopen_api package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, AutolifeRobotics.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>  
+
+  <style>
+         .wy-nav-content { max-width: none; }
+  </style>
+
+
+
+</body>
+</html>
